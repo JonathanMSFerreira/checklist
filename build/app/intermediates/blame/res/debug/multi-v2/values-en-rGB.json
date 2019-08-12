@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jonathan/git/mylist/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/home/jonathan/git/checklist/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/home/jonathan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/fc686f4c84b94d12559342aa04010a8a/res/values-en-rGB/values-en-rGB.xml",

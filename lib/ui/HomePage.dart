@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
             Image.asset("images/lg_checklist.png",
-                color: Colors.white,width: 300,
+                color: Colors.white,width: 250,
           ),
 
             SizedBox(height: 80.0,),

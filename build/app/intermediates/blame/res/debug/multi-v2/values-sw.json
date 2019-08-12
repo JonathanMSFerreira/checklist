@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jonathan/git/mylist/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/home/jonathan/git/checklist/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/home/jonathan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/af9543cb0dca1bf10ed8b1709765e16e/res/values-sw/values-sw.xml",

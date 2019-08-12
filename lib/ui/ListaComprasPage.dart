@@ -239,13 +239,32 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
         child: Column(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
-        ListTile(
 
-          title: Text(listaCompras[index].name ?? "",
-              style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold)),
+        GestureDetector(
 
-          trailing: Text(listaCompras[index].date ?? ""),
-        ),
+          child:  ListTile(
+
+            title: Text(listaCompras[index].name ?? "",
+                style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold)),
+
+
+            subtitle: Text(listaCompras[index].date ?? ""),
+          ),
+          onTap: (){
+
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => ItemPage(listaCompras[index])));
+
+
+
+          },
+
+
+        )
+
+       ,
         ButtonTheme.bar(
           child: ButtonBar(
             children: <Widget>[

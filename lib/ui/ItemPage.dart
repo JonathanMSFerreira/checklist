@@ -55,6 +55,7 @@ class _ItemPageState extends State<ItemPage> {
     return Scaffold(
       appBar: AppBar(
 
+        centerTitle: true,
         iconTheme: IconThemeData(
           color: Colors.white, //change your color here
         ),

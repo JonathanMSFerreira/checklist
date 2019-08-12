@@ -20,11 +20,9 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
   Compra compra;
 
-  Item _editedItem;
-
   int _radioSelected = 0;
 
-  var _sizeItens;
+
 
   void radioChanged(int value) {
     setState(() {
@@ -39,6 +37,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
   CompraHelper helper = new CompraHelper();
   List<Item> listaItens = List();
+  List<Item> sendListaItens = List();
 
   @override
   Widget build(BuildContext context) {
@@ -60,8 +59,6 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
                     value: 0,
                     groupValue: _radioSelected,
                     onChanged: (int value) {
-
-
 
                       radioChanged(value);
                     }),
@@ -109,35 +106,26 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
         ),
 
         new RaisedButton(
-          child: new Text(
-            "Compartilhar",
-            style: TextStyle(color: Colors.white),
-          ),
-          shape: new RoundedRectangleBorder(
-              borderRadius: new BorderRadius.circular(30.0)),
+          child: new Text("Compartilhar", style: TextStyle(color: Colors.white),),
+          shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
           onPressed: () async {
             switch (_radioSelected) {
               case 0:
                 {
-                  Share.share(await _sendItensSelected(compra, 0));
+                  Share.share( _sendItensSelected(compra, 0));
                   break;
                 }
               case 1:
                 {
-                  Share.share(await _sendItensSelected(compra, 1));
+                  Share.share( _sendItensSelected(compra, 1));
                   break;
                 }
-
               case 2:
                 {
-                  Share.share(await _sendAllItens(compra));
+                  Share.share( _sendAllItens(compra));
                   break;
                 }
-
             }
-
-
-
           },
         ),
       ],
@@ -146,41 +134,86 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
 
 
+  String _sendAllItens(Compra compra)  {
 
-  Future<String> _sendAllItens(Compra compra) async {
 
-    String listaCompartilhada = '';
-     listaCompartilhada = compra.name + '\n';
 
-    helper.getAllItens(compra.id).then((list) {
-      setState(() {
-        listaItens = list;
-      });
+    Future<String> l =  helper.getAllItens(compra.id).then((list) {
+
+
+      String listaCompartilhada = '';
+      listaCompartilhada = 'Lista' + compra.name + '\n';
+
+
+      for (Item item in list) {
+
+        if(item.qtdItem != null && item.qtdItem.isNotEmpty){
+
+          listaCompartilhada += item.qtdItem;
+
+        }
+
+        if(item.medidaItem != null && item.medidaItem.isNotEmpty){
+
+
+          listaCompartilhada += item.medidaItem;
+
+        }
+
+        listaCompartilhada += " "+ item.nameItem + '\n';
+
+
+      }
+
+
+
+
+      return listaCompartilhada;
+
+
+
     });
 
-    for (Item item in listaItens) {
-      listaCompartilhada += item.nameItem + '\n';
-    }
-
-    return listaCompartilhada;
+    return l.toString();
   }
 
-  Future<String> _sendItensSelected(Compra compra, int check) async {
+  String _sendItensSelected(Compra compra, int check)  {
 
-    String listaCompartilhada = '';
 
-    listaCompartilhada = 'Lista ' + compra.name + '\n';
+  Future<String> l =  helper.getItensPorStatus(compra.id, check).then((list) {
 
-    helper.getItensPorStatus(compra.id, check).then((list) {
-      setState(() {
-        listaItens = list;
-      });
+      String listaCompartilhada = '';
+      listaCompartilhada = 'Lista ' + compra.name + '\n';
+
+
+      for (Item item in list) {
+
+
+
+        if(item.qtdItem != null && item.qtdItem.isNotEmpty){
+
+          listaCompartilhada += item.qtdItem;
+
+        }
+
+        if(item.medidaItem != null && item.medidaItem.isNotEmpty){
+
+
+          listaCompartilhada += " "+item.medidaItem;
+
+        }
+
+        listaCompartilhada += " "+ item.nameItem + '\n';
+
+
+      }
+
+      return listaCompartilhada;
+
     });
 
-    for (Item item in listaItens) {
-      listaCompartilhada += item.nameItem + '\n';
-    }
+  return l.toString();
 
-    return listaCompartilhada;
+
   }
 }
