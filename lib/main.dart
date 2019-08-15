@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 
 void main() => runApp(MaterialApp(
-  title: 'CheckList',
+  title: 'checklist',
   theme: ThemeData(
 
     primarySwatch: Colors.orange,

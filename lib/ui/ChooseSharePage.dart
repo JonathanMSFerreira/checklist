@@ -112,17 +112,17 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
             switch (_radioSelected) {
               case 0:
                 {
-                  Share.share( _sendItensSelected(compra, 0));
+                  Share.share(await _sendItensSelected(compra, 0));
                   break;
                 }
               case 1:
                 {
-                  Share.share( _sendItensSelected(compra, 1));
+                  Share.share(await _sendItensSelected(compra, 1));
                   break;
                 }
               case 2:
                 {
-                  Share.share( _sendAllItens(compra));
+                  Share.share(await _sendAllItens(compra));
                   break;
                 }
             }
@@ -134,7 +134,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
 
 
-  String _sendAllItens(Compra compra)  {
+  Future<String> _sendAllItens(Compra compra)  {
 
 
 
@@ -162,22 +162,16 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
         listaCompartilhada += " "+ item.nameItem + '\n';
 
-
       }
-
-
-
 
       return listaCompartilhada;
 
-
-
     });
 
-    return l.toString();
+    return l;
   }
 
-  String _sendItensSelected(Compra compra, int check)  {
+  Future<String> _sendItensSelected(Compra compra, int check)  {
 
 
   Future<String> l =  helper.getItensPorStatus(compra.id, check).then((list) {
@@ -212,7 +206,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
     });
 
-  return l.toString();
+  return l;
 
 
   }

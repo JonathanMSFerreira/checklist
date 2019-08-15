@@ -1,4 +1,4 @@
-#Mon Aug 12 15:53:48 BRT 2019
+#Wed Aug 14 21:30:22 BRT 2019
 base.0=/home/jonathan/git/checklist/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
