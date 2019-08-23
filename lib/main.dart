@@ -10,7 +10,7 @@ void main() => runApp(MaterialApp(
   theme: ThemeData(
 
     primarySwatch: Colors.orange,
-
+    cursorColor: Colors.orangeAccent
 
 
   ),

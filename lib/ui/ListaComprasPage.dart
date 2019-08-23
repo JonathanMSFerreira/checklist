@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mylist/model/Compra.dart';
 import 'package:mylist/helper/ListaComprasHelper.dart';
+import 'package:mylist/ui/ChooseSharePage.dart';
 import 'package:mylist/ui/ItemPage.dart';
 
 class ListaComprasPage extends StatefulWidget {
@@ -256,8 +257,10 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
         ),
         ButtonTheme.bar(
           child: ButtonBar(
+
             children: <Widget>[
-              FlatButton(
+
+           FlatButton(
                 child: const Text(
                   'Remover',
                   style: TextStyle(color: Colors.grey),
@@ -304,33 +307,7 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
     }
   }
 
-  /* Widget _menuLista() => PopupMenuButton<int>(
-    itemBuilder: (context) => [
-
-      PopupMenuItem(
-          value: 1,
-          child: FlatButton.icon(onPressed: (){
 
 
-
-
-          }, icon: Icon(Icons.error_outline, ), label: Text("Sobre"))
-      ),
-      PopupMenuItem(
-          value: 1,
-          child: FlatButton.icon(onPressed: (){
-
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => PrivacidadePage()));
-
-          }, icon: Icon(Icons.gavel, ), label: Text("Política de privacidade"))
-      ),
-
-
-
-    ],
-  );*/
 
 }

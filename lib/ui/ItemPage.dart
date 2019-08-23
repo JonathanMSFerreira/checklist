@@ -7,6 +7,8 @@ import 'package:share/share.dart';
 import 'package:mylist/ui/ChooseSharePage.dart';
 
 class ItemPage extends StatefulWidget {
+
+
   Compra compra;
 
   ItemPage(Compra compra) {
@@ -15,18 +17,20 @@ class ItemPage extends StatefulWidget {
 
   @override
   _ItemPageState createState() => _ItemPageState(compra);
+
+
 }
 
 class _ItemPageState extends State<ItemPage> {
 
 
   var medidaSelecionada;
+
   var qtdInserida = false;
+
   var nameInserido = false;
+
   final _nameFocus = FocusNode();
-
-
-
 
   Compra compra;
 
@@ -37,7 +41,7 @@ class _ItemPageState extends State<ItemPage> {
   final _qtdController = TextEditingController();
 
 
-  List<String> _locations = ['sem unidade','kg', 'l', 'g', 'mg', 'T', 'ml'];
+  List<String> _locations = ['un','kg', 'l', 'g', 'mg', 'T', 'ml'];
 
   var _sizeItens;
 
@@ -62,6 +66,7 @@ class _ItemPageState extends State<ItemPage> {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
 
@@ -84,10 +89,11 @@ class _ItemPageState extends State<ItemPage> {
           _nameController.text = '';
           _qtdController.text = '';
           _editedItem.ok = false;
+
+
          _dialogAdicionaItem(compra, context);
 
 
-         /*_novoItem(compra);*/
 
 
         },
@@ -227,8 +233,9 @@ class _ItemPageState extends State<ItemPage> {
         ],
       ),
       onDismissed: (direction) {
+
         helper.deleteItem(listaItens[index].idItem);
-        compra.qtd--;
+        --compra.qtd;
         helper.updateCompra(compra);
         _getAllItens(compra.id);
         _getSize(compra.id);
@@ -307,112 +314,6 @@ class _ItemPageState extends State<ItemPage> {
 
 
 
-  void _novoItem(Compra compra){
-
-
-      showModalBottomSheet<void>(
-          context: context,
-
-          builder: (BuildContext context){
-            return StatefulBuilder(
-
-              builder:  (BuildContext context, StateSetter state){
-              return SingleChildScrollView(
-                  child:
-
-
-                  Container(
-                      child: Center(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.stretch,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-                              TextField(
-                                controller: _nameController,
-                                focusNode: _nameFocus,
-                                decoration: new InputDecoration(
-                                  labelText: "Nome",
-                                  fillColor: Colors.white,
-
-                                  //fillColor: Colors.green
-                                ),
-                                onChanged: (text) {
-                                  setState(() {
-                                    _editedItem.nameItem = text;
-
-                                    if(text.isNotEmpty && text != null){
-
-                                      nameInserido = true;
-
-                                    }else{
-
-                                      nameInserido = false;
-
-                                    }
-                                  });
-                                },
-                              ),
-                              TextField(
-                                controller: _qtdController,
-                                decoration: new InputDecoration(
-                                  labelText: "Quantidade",
-                                  fillColor: Colors.white,
-
-                                  //fillColor: Colors.green
-                                ),
-                                keyboardType: TextInputType.numberWithOptions(
-                                    decimal: false, signed: false),
-                                onChanged: (text) {
-                                  setState(() {
-                                    _editedItem.qtdItem = text;
-
-                                    if(text.isNotEmpty && text != null){
-
-                                      qtdInserida = true;
-
-                                    }else{
-
-                                      qtdInserida = false;
-                                      _editedItem.medidaItem = null;
-
-                                    }
-                                  });
-                                },
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-
-                              qtdInserida == true ?  DropdownButton(
-                                isExpanded: true,
-                                hint: Text('Unidade de medida'), // Not necessary for Option 1
-                                value: medidaSelecionada ,
-
-                                onChanged: (newValue) {
-                                  setState(() {
-                                    _editedItem.medidaItem = newValue;
-                                    medidaSelecionada = newValue;
-
-                                  });
-
-                                },
-                                items: _locations.map((medida) {
-                                  return DropdownMenuItem(
-                                    child: new Text(medida),
-                                    value: medida,
-                                  );
-                                }).toList(),
-                              ) : Container(),
-                            ],
-                          ))));
-
-
-            }
-
-            );});
-
-  }
-
 
 
   Widget _menuItens(int fkCompra) => PopupMenuButton<int>(
@@ -444,7 +345,8 @@ class _ItemPageState extends State<ItemPage> {
 
 
 
-          }, icon: Icon(Icons.clear, ), label: Text("Desmarcar todos"))
+          },
+              icon: Icon(Icons.clear, ), label: Text("Desmarcar todos"))
       ),
       PopupMenuItem(
           value: 2,
@@ -459,16 +361,22 @@ class _ItemPageState extends State<ItemPage> {
           }, icon: Icon(Icons.check, ), label: Text("Marcar todos"))
       ),
 
+      PopupMenuDivider(),
 
       PopupMenuItem(
           value: 2,
           child: FlatButton.icon(onPressed: (){
 
-            helper.deleteAllItens(fkCompra);
+      /*      helper.deleteAllItens(fkCompra);
 
             _getAllItens(compra.id);
-            _getSize(compra.id);
-            Navigator.pop(context);
+            _getSize(compra.id);*/
+
+
+            _dialogCancelaLimpaLista(compra);
+
+
+          /*  Navigator.pop(context);*/
 
 
 
@@ -480,8 +388,58 @@ class _ItemPageState extends State<ItemPage> {
   );
 
 
+  void _dialogCancelaLimpaLista(Compra compra) {
+    // flutter defined function
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        // return object of type Dialog
+        return AlertDialog(
+          title: new Text("Limpar lista"),
+          content: new Text("Remover todos os itens da lista \"" + compra.name + "\"?"),
+          actions: <Widget>[
+
+            new FlatButton(
+              child: new Text(
+                "Cancelar",
+                style: TextStyle(color: Colors.grey[400]),
+              ),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+
+            new RaisedButton(
+              child: new Text(
+                "Sim",
+                style: TextStyle(color: Colors.white),
+              ),
+              shape: new RoundedRectangleBorder(
+                  borderRadius: new BorderRadius.circular(30.0)),
+              onPressed: () {
+
+                helper.deleteAllItens(compra.id);
+
+                _getAllItens(compra.id);
+                _getSize(compra.id);
+                Navigator.of(context).pop();
+                Navigator.of(context).pop();
+
+
+              },
+            ),
+
+
+          ],
+        );
+      },
+    );
+  }
 
 }
+
+
+
 
 
 

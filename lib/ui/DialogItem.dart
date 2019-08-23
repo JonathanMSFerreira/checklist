@@ -176,14 +176,9 @@ class _DialogItemState extends State<DialogItem> {
 
 
 
-
-
                   helper.saveItem(_editedItem);
-                  compra.qtd++;
+                  ++compra.qtd;
                   helper.updateCompra(compra);
-                  
-                  helper.updateCompra(compra);
-
 
 
                   _editedItem = Item();

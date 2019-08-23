@@ -57,7 +57,7 @@
             android:value="ca-app-pub-7018518907586805~4042856097" />
 
         <activity
-            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+            android:name="io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity"
             android:exported="false"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 

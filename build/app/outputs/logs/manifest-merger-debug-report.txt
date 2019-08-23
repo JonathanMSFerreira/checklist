@@ -131,14 +131,14 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/jonathan/git/checklist/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from /home/jonathan/git/checklist/android/app/src/debug/AndroidManifest.xml:6:22-64
-activity#io.flutter.plugins.urllauncher.WebViewActivity
+activity#io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity
 ADDED from [:url_launcher] /home/jonathan/git/checklist/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-11:74
 	android:exported
 		ADDED from [:url_launcher] /home/jonathan/git/checklist/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:13-37
 	android:theme
 		ADDED from [:url_launcher] /home/jonathan/git/checklist/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher] /home/jonathan/git/checklist/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-74
+		ADDED from [:url_launcher] /home/jonathan/git/checklist/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-92
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:image_picker] /home/jonathan/git/checklist/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
 	android:name

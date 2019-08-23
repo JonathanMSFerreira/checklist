@@ -32,9 +32,9 @@ class CompraHelper {
   Future<Database> initDb() async{
 
     final databasesPath = await getDatabasesPath();
-    final path =  join(databasesPath,"db_cHL.db");
+    final path =  join(databasesPath,"db_checklist.db");
 
-    return await openDatabase(path,version: 1,onCreate: (Database db, int newerVersion) async{
+    return await openDatabase(path,version: 2,onCreate: (Database db, int newerVersion) async{
 
       await db.execute(
         "CREATE TABLE $compraTable( $idColumn INTEGER PRIMARY KEY, $nameColumn TEXT,  $qtdItensColumn INTEGER NOT NULL, $dateColumn TEXT)");
