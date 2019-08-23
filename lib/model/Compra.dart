@@ -2,6 +2,7 @@ final String compraTable = "compraTable";
 final String idColumn = "idColumn";
 final String nameColumn = "nameColumn";
 final String dateColumn = "dateColumn";
+final String qtdItensColumn = "qtdColumn";
 
 
 
@@ -10,6 +11,7 @@ class Compra {
   int id;
   String name;
   String date;
+  int qtd = 0;
 
 
 
@@ -21,6 +23,7 @@ class Compra {
     id = map[idColumn];
     name = map[nameColumn];
     date = map[dateColumn];
+    qtd = map[qtdItensColumn];
 
   }
 
@@ -29,6 +32,7 @@ class Compra {
     Map<String, dynamic> map = {
       nameColumn: name,
       dateColumn: date,
+      qtdItensColumn: qtd,
 
     };
 
@@ -42,7 +46,7 @@ class Compra {
   @override
   String toString() {
 
-    return "Compra(id: $id, name: $name, date: $date)";
+    return "Compra(id: $id, name: $name, date: $date, qtdItens: $qtd)";
 
   }
 

@@ -37,7 +37,7 @@ class CompraHelper {
     return await openDatabase(path,version: 1,onCreate: (Database db, int newerVersion) async{
 
       await db.execute(
-        "CREATE TABLE $compraTable( $idColumn INTEGER PRIMARY KEY, $nameColumn TEXT, $dateColumn TEXT)");
+        "CREATE TABLE $compraTable( $idColumn INTEGER PRIMARY KEY, $nameColumn TEXT,  $qtdItensColumn INTEGER NOT NULL, $dateColumn TEXT)");
 
 
 
@@ -64,7 +64,7 @@ class CompraHelper {
     Database dbCompra = await db;
 
     List<Map> maps = await dbCompra.query(compraTable,
-        columns: [idColumn,nameColumn,dateColumn],
+        columns: [idColumn,nameColumn,dateColumn, qtdItensColumn],
     where: "$idColumn = ?",
     whereArgs: [id]);
 

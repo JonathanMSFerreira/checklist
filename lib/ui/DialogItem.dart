@@ -44,7 +44,7 @@ class _DialogItemState extends State<DialogItem> {
 
   CompraHelper helper = new CompraHelper();
   List<Item> listaItens = List();
-  List<String> _locations = ['sem unidade','kg', 'l', 'g', 'mg', 'T', 'ml'];
+  List<String> _locations = ['un','kg', 'l', 'g', 'mg', 'T', 'ml'];
 
 
   @override
@@ -54,8 +54,13 @@ class _DialogItemState extends State<DialogItem> {
           title: new Text("Novo item", style: TextStyle(color: Colors.orangeAccent),),
           titlePadding: EdgeInsets.only(top: 12.0, left: 21.0),
 
-          content: SingleChildScrollView(
-              child: Container(
+          content:
+
+          SingleChildScrollView(
+              child:
+
+
+              Container(
                   child: Center(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -119,7 +124,7 @@ class _DialogItemState extends State<DialogItem> {
 
                        qtdInserida == true ?  DropdownButton(
                             isExpanded: true,
-                            hint: Text('Unidade de medida'), // Not necessary for Option 1
+                            hint: Text('un'), // Not necessary for Option 1
                             value: medidaSelecionada ,
 
                             onChanged: (newValue) {
@@ -163,7 +168,7 @@ class _DialogItemState extends State<DialogItem> {
                   _editedItem.fkCompra = compra.id;
                   _editedItem.ok = false;
 
-                  if(_editedItem.medidaItem == 'sem unidade'){
+                  if(_editedItem.medidaItem == 'un'){
 
                     _editedItem.medidaItem = '';
 
@@ -174,6 +179,13 @@ class _DialogItemState extends State<DialogItem> {
 
 
                   helper.saveItem(_editedItem);
+                  compra.qtd++;
+                  helper.updateCompra(compra);
+                  
+                  helper.updateCompra(compra);
+
+
+
                   _editedItem = Item();
                   _editedItem.ok = false;
                   _nameController.text = "";

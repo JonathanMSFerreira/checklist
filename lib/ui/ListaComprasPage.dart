@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mylist/model/Compra.dart';
 import 'package:mylist/helper/ListaComprasHelper.dart';
 import 'package:mylist/ui/ItemPage.dart';
-import 'package:firebase_admob/firebase_admob.dart';
-
 
 class ListaComprasPage extends StatefulWidget {
   @override
@@ -11,7 +9,6 @@ class ListaComprasPage extends StatefulWidget {
 }
 
 class _ListaComprasPageState extends State<ListaComprasPage> {
-
   Compra _editedCompra;
 
   final _nameController = TextEditingController();
@@ -22,13 +19,13 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
 
   var _sizeItens;
 
-
   var _nameInserido = false;
-
 
   @override
   void initState() {
     _editedCompra = Compra();
+    _editedCompra.qtd = 0;
+    helper.updateCompra(_editedCompra);
 
     _getAllCompras();
 
@@ -43,29 +40,23 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
 
   @override
   Widget build(BuildContext context) {
-
-    FirebaseAdMob.instance.initialize(appId: "ca-app-pub-7018518907586805~4042856097").then((response){
-
-      myBanner..load()..show();
-
-    });
-
     return Scaffold(
         appBar: AppBar(
-
-          title:    Image.asset("images/lg_checklist.png", color: Colors.white, width: 130,),
+          title: Image.asset(
+            "images/lg_checklist.png",
+            color: Colors.white,
+            width: 130,
+          ),
           centerTitle: true,
           iconTheme: IconThemeData(
             color: Colors.white, //change your color here
           ),
 
-    /*      actions: <Widget>[
+          /*      actions: <Widget>[
 
             _menuLista()
 
           ],*/
-
-
         ),
         body: Column(
           children: <Widget>[
@@ -81,7 +72,11 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Icon(Icons.assignment_late, size: 50, color: Colors.grey,),
+                          Icon(
+                            Icons.assignment_late,
+                            size: 50,
+                            color: Colors.grey,
+                          ),
                           Text(
                             "Nenhuma lista criada!",
                             style: TextStyle(
@@ -116,19 +111,19 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                             ),
                             onChanged: (text) {
                               setState(() {
-
                                 _editedCompra.name = text;
-                                String data = DateTime.now().day.toString() + "/" + DateTime.now().month.toString() + "/" + DateTime.now().year.toString();
+                                String data = DateTime.now().day.toString() +
+                                    "/" +
+                                    DateTime.now().month.toString() +
+                                    "/" +
+                                    DateTime.now().year.toString();
                                 _editedCompra.date = data;
-                                if(text.isNotEmpty && text != null){
-
-                                    _nameInserido = true;
-
-                                  }else{
-
-                                    _nameInserido = false;
-                                  }
-                                });
+                                if (text.isNotEmpty && text != null) {
+                                  _nameInserido = true;
+                                } else {
+                                  _nameInserido = false;
+                                }
+                              });
                             }))),
                 Container(
                   child: IconButton(
@@ -137,32 +132,32 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                       Icons.add_circle,
                       color: Colors.orangeAccent,
                     ),
-                    onPressed: _nameInserido == true ? () {
-                      if (_editedCompra.name != null &&  _editedCompra.name.isNotEmpty) {
+                    onPressed: _nameInserido == true
+                        ? () {
+                            if (_editedCompra.name != null &&
+                                _editedCompra.name.isNotEmpty) {
+                              Compra tmpCompra = _editedCompra;
 
-                       Compra tmpCompra = _editedCompra;
+                              helper.saveCompra(_editedCompra);
 
-                        helper.saveCompra(_editedCompra);
+                              _editedCompra = Compra();
+                              _nameController.text = "";
+                              _getSize();
+                              _getAllCompras();
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          ItemPage(tmpCompra)));
+                            } else {
+                              FocusScope.of(context).requestFocus(_nameFocus);
+                              return null;
+                            }
 
-                        _editedCompra = Compra();
-                        _nameController.text = "";
-                        _getSize();
-                        _getAllCompras();
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ItemPage(tmpCompra)));
-
-
-                      } else {
-
-                        FocusScope.of(context).requestFocus(_nameFocus);
-                        return null;
-
-                      }
-
-                     FocusScope.of(context).requestFocus(new FocusNode());
-                    } : null,
+                            FocusScope.of(context)
+                                .requestFocus(new FocusNode());
+                          }
+                        : null,
                   ),
                 )
               ],
@@ -172,14 +167,13 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
   }
 
   void _dialogRemoveCompra(Compra compra) {
-
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
         return AlertDialog(
           title: new Text("Remover"),
-          content: Text("Deseja remover a lista \""+ compra.name + "\"?"),
+          content: Text("Deseja remover a lista \"" + compra.name + "\"?"),
           actions: <Widget>[
             // usually buttons at the bottom of the dialog
             new FlatButton(
@@ -237,41 +231,29 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
     });
   }
 
-
   Widget _cardCompra(BuildContext context, int index) {
-
     _getSizeItens(listaCompras[index].id);
 
     return Card(
         child: Column(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
-
         GestureDetector(
-
-          child:  ListTile(
-
+          child: ListTile(
             title: Text(listaCompras[index].name ?? "",
                 style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold)),
-
-
-            subtitle: Text(listaCompras[index].date ?? ""),
+            subtitle: Text('Criada em '+listaCompras[index].date ?? "",
+                style: TextStyle(fontSize: 15.0, color: Colors.grey)),
+            trailing: Text(getQtdItens(listaCompras[index]) ?? "",
+                style: TextStyle(fontSize: 20.0, color: Colors.orange)),
           ),
-          onTap: (){
-
+          onTap: () {
             Navigator.push(
                 context,
                 MaterialPageRoute(
                     builder: (context) => ItemPage(listaCompras[index])));
-
-
-
           },
-
-
-        )
-
-       ,
+        ),
         ButtonTheme.bar(
           child: ButtonBar(
             children: <Widget>[
@@ -286,7 +268,7 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
               ),
               RaisedButton(
                 color: Colors.orangeAccent,
-                child: const Text('Itens da lista',
+                child: const Text('Gerenciar lista',
                     style: TextStyle(
                         fontWeight: FontWeight.bold, color: Colors.white)),
                 shape: new RoundedRectangleBorder(
@@ -305,7 +287,24 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
     ));
   }
 
- /* Widget _menuLista() => PopupMenuButton<int>(
+  String getQtdItens(Compra compra) {
+    switch (compra.qtd) {
+      case 0:
+        {
+          return 'Nenhum item';
+        }
+      case 1:
+        {
+          return '1 item';
+        }
+      default:
+        {
+          return compra.qtd.toString() + ' itens';
+        }
+    }
+  }
+
+  /* Widget _menuLista() => PopupMenuButton<int>(
     itemBuilder: (context) => [
 
       PopupMenuItem(
@@ -334,27 +333,4 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
     ],
   );*/
 
-
 }
-
-MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-  keywords: <String>['shop', 'pubg'],
-  contentUrl: 'https://flutter.io',
-  birthday: DateTime.now(),
-  childDirected: false,
-  designedForFamilies: false,
-  gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
-  testDevices: <String>[], // Android emulators are considered test devices
-);
-
-BannerAd myBanner = BannerAd(
-  // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-  // https://developers.google.com/admob/android/test-ads
-  // https://developers.google.com/admob/ios/test-ads
-  adUnitId: "ca-app-pub-7018518907586805/4499233239",
-  size: AdSize.smartBanner,
-  targetingInfo: targetingInfo,
-  listener: (MobileAdEvent event) {
-    print("BannerAd event is $event");
-  },
-);

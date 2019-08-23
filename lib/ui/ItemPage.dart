@@ -19,6 +19,15 @@ class ItemPage extends StatefulWidget {
 
 class _ItemPageState extends State<ItemPage> {
 
+
+  var medidaSelecionada;
+  var qtdInserida = false;
+  var nameInserido = false;
+  final _nameFocus = FocusNode();
+
+
+
+
   Compra compra;
 
   Item _editedItem;
@@ -27,7 +36,8 @@ class _ItemPageState extends State<ItemPage> {
 
   final _qtdController = TextEditingController();
 
-  var medidaSelecionada;
+
+  List<String> _locations = ['sem unidade','kg', 'l', 'g', 'mg', 'T', 'ml'];
 
   var _sizeItens;
 
@@ -74,7 +84,11 @@ class _ItemPageState extends State<ItemPage> {
           _nameController.text = '';
           _qtdController.text = '';
           _editedItem.ok = false;
-          _dialogAdicionaItem(compra, context);
+         _dialogAdicionaItem(compra, context);
+
+
+         /*_novoItem(compra);*/
+
 
         },
         child: Icon(Icons.add, color: Colors.white, size: 40,),
@@ -214,6 +228,8 @@ class _ItemPageState extends State<ItemPage> {
       ),
       onDismissed: (direction) {
         helper.deleteItem(listaItens[index].idItem);
+        compra.qtd--;
+        helper.updateCompra(compra);
         _getAllItens(compra.id);
         _getSize(compra.id);
       },
@@ -291,16 +307,121 @@ class _ItemPageState extends State<ItemPage> {
 
 
 
+  void _novoItem(Compra compra){
+
+
+      showModalBottomSheet<void>(
+          context: context,
+
+          builder: (BuildContext context){
+            return StatefulBuilder(
+
+              builder:  (BuildContext context, StateSetter state){
+              return SingleChildScrollView(
+                  child:
+
+
+                  Container(
+                      child: Center(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: <Widget>[
+                              TextField(
+                                controller: _nameController,
+                                focusNode: _nameFocus,
+                                decoration: new InputDecoration(
+                                  labelText: "Nome",
+                                  fillColor: Colors.white,
+
+                                  //fillColor: Colors.green
+                                ),
+                                onChanged: (text) {
+                                  setState(() {
+                                    _editedItem.nameItem = text;
+
+                                    if(text.isNotEmpty && text != null){
+
+                                      nameInserido = true;
+
+                                    }else{
+
+                                      nameInserido = false;
+
+                                    }
+                                  });
+                                },
+                              ),
+                              TextField(
+                                controller: _qtdController,
+                                decoration: new InputDecoration(
+                                  labelText: "Quantidade",
+                                  fillColor: Colors.white,
+
+                                  //fillColor: Colors.green
+                                ),
+                                keyboardType: TextInputType.numberWithOptions(
+                                    decimal: false, signed: false),
+                                onChanged: (text) {
+                                  setState(() {
+                                    _editedItem.qtdItem = text;
+
+                                    if(text.isNotEmpty && text != null){
+
+                                      qtdInserida = true;
+
+                                    }else{
+
+                                      qtdInserida = false;
+                                      _editedItem.medidaItem = null;
+
+                                    }
+                                  });
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+
+                              qtdInserida == true ?  DropdownButton(
+                                isExpanded: true,
+                                hint: Text('Unidade de medida'), // Not necessary for Option 1
+                                value: medidaSelecionada ,
+
+                                onChanged: (newValue) {
+                                  setState(() {
+                                    _editedItem.medidaItem = newValue;
+                                    medidaSelecionada = newValue;
+
+                                  });
+
+                                },
+                                items: _locations.map((medida) {
+                                  return DropdownMenuItem(
+                                    child: new Text(medida),
+                                    value: medida,
+                                  );
+                                }).toList(),
+                              ) : Container(),
+                            ],
+                          ))));
+
+
+            }
+
+            );});
+
+  }
+
+
+
   Widget _menuItens(int fkCompra) => PopupMenuButton<int>(
     itemBuilder: (context) => [
       PopupMenuItem(
         value: 1,
         child: FlatButton.icon(onPressed: (){
           
-        /*  Share.share('Lista de compras\n 12 ovos \n 1kg Arroz');
-          _getAllItens(compra.id);
-          _getSize(compra.id);
-          Navigator.pop(context);*/
+
           Navigator.pop(context);
           _dialogCompartilhaLista(compra, context);
 
@@ -309,20 +430,7 @@ class _ItemPageState extends State<ItemPage> {
           
         }, icon: Icon(Icons.share, ), label: Text("Enviar lista"))
       ),
-      PopupMenuItem(
-        value: 2,
-          child: FlatButton.icon(onPressed: (){
 
-            helper.deleteAllItens(fkCompra);
-
-            _getAllItens(compra.id);
-            _getSize(compra.id);
-            Navigator.pop(context);
-
-
-
-          }, icon: Icon(Icons.delete, ), label: Text("Limpar lista"))
-      ),
       PopupMenuItem(
           value: 2,
           child: FlatButton.icon(onPressed: (){
@@ -350,6 +458,23 @@ class _ItemPageState extends State<ItemPage> {
 
           }, icon: Icon(Icons.check, ), label: Text("Marcar todos"))
       ),
+
+
+      PopupMenuItem(
+          value: 2,
+          child: FlatButton.icon(onPressed: (){
+
+            helper.deleteAllItens(fkCompra);
+
+            _getAllItens(compra.id);
+            _getSize(compra.id);
+            Navigator.pop(context);
+
+
+
+          }, icon: Icon(Icons.delete, ), label: Text("Limpar lista"))
+      ),
+
 
     ],
   );
