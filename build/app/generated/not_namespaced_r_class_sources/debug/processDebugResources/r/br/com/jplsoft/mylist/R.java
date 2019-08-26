@@ -2944,35 +2944,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background br.com.jplsoft.mylist:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit br.com.jplsoft.mylist:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked br.com.jplsoft.mylist:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd br.com.jplsoft.mylist:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions br.com.jplsoft.mylist:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft br.com.jplsoft.mylist:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight br.com.jplsoft.mylist:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart br.com.jplsoft.mylist:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation br.com.jplsoft.mylist:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout br.com.jplsoft.mylist:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions br.com.jplsoft.mylist:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider br.com.jplsoft.mylist:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation br.com.jplsoft.mylist:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height br.com.jplsoft.mylist:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll br.com.jplsoft.mylist:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator br.com.jplsoft.mylist:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout br.com.jplsoft.mylist:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon br.com.jplsoft.mylist:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle br.com.jplsoft.mylist:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding br.com.jplsoft.mylist:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo br.com.jplsoft.mylist:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode br.com.jplsoft.mylist:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme br.com.jplsoft.mylist:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding br.com.jplsoft.mylist:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle br.com.jplsoft.mylist:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle br.com.jplsoft.mylist:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle br.com.jplsoft.mylist:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title br.com.jplsoft.mylist:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle br.com.jplsoft.mylist:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background br.com.lumontsoft.checklist:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit br.com.lumontsoft.checklist:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked br.com.lumontsoft.checklist:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd br.com.lumontsoft.checklist:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions br.com.lumontsoft.checklist:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft br.com.lumontsoft.checklist:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight br.com.lumontsoft.checklist:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart br.com.lumontsoft.checklist:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation br.com.lumontsoft.checklist:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout br.com.lumontsoft.checklist:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions br.com.lumontsoft.checklist:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider br.com.lumontsoft.checklist:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation br.com.lumontsoft.checklist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height br.com.lumontsoft.checklist:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll br.com.lumontsoft.checklist:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator br.com.lumontsoft.checklist:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout br.com.lumontsoft.checklist:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon br.com.lumontsoft.checklist:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle br.com.lumontsoft.checklist:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding br.com.lumontsoft.checklist:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo br.com.lumontsoft.checklist:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode br.com.lumontsoft.checklist:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme br.com.lumontsoft.checklist:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding br.com.lumontsoft.checklist:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle br.com.lumontsoft.checklist:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle br.com.lumontsoft.checklist:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle br.com.lumontsoft.checklist:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title br.com.lumontsoft.checklist:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle br.com.lumontsoft.checklist:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3015,7 +3015,7 @@ public final class R {
       0x7f0200f5
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#background}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3023,11 +3023,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:background
+     * @attr name br.com.lumontsoft.checklist:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3038,11 +3038,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:backgroundSplit
+     * @attr name br.com.lumontsoft.checklist:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3053,11 +3053,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:backgroundStacked
+     * @attr name br.com.lumontsoft.checklist:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3066,11 +3066,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetEnd
+     * @attr name br.com.lumontsoft.checklist:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3079,11 +3079,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetEndWithActions
+     * @attr name br.com.lumontsoft.checklist:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3092,11 +3092,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetLeft
+     * @attr name br.com.lumontsoft.checklist:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3105,11 +3105,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetRight
+     * @attr name br.com.lumontsoft.checklist:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3118,11 +3118,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetStart
+     * @attr name br.com.lumontsoft.checklist:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3131,11 +3131,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetStartWithNavigation
+     * @attr name br.com.lumontsoft.checklist:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3143,11 +3143,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:customNavigationLayout
+     * @attr name br.com.lumontsoft.checklist:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3165,11 +3165,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:displayOptions
+     * @attr name br.com.lumontsoft.checklist:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#divider}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3177,11 +3177,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:divider
+     * @attr name br.com.lumontsoft.checklist:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3190,11 +3190,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:elevation
+     * @attr name br.com.lumontsoft.checklist:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#height}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3203,21 +3203,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:height
+     * @attr name br.com.lumontsoft.checklist:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:hideOnContentScroll
+     * @attr name br.com.lumontsoft.checklist:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3225,11 +3225,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:homeAsUpIndicator
+     * @attr name br.com.lumontsoft.checklist:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3237,11 +3237,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:homeLayout
+     * @attr name br.com.lumontsoft.checklist:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#icon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3249,11 +3249,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:icon
+     * @attr name br.com.lumontsoft.checklist:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3261,11 +3261,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:indeterminateProgressStyle
+     * @attr name br.com.lumontsoft.checklist:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3274,11 +3274,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:itemPadding
+     * @attr name br.com.lumontsoft.checklist:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#logo}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3286,11 +3286,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:logo
+     * @attr name br.com.lumontsoft.checklist:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3304,11 +3304,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:navigationMode
+     * @attr name br.com.lumontsoft.checklist:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3316,11 +3316,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:popupTheme
+     * @attr name br.com.lumontsoft.checklist:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3329,11 +3329,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:progressBarPadding
+     * @attr name br.com.lumontsoft.checklist:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3341,21 +3341,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:progressBarStyle
+     * @attr name br.com.lumontsoft.checklist:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:subtitle
+     * @attr name br.com.lumontsoft.checklist:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3363,21 +3363,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:subtitleTextStyle
+     * @attr name br.com.lumontsoft.checklist:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#title}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:title
+     * @attr name br.com.lumontsoft.checklist:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3385,7 +3385,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:titleTextStyle
+     * @attr name br.com.lumontsoft.checklist:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -3467,12 +3467,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background br.com.jplsoft.mylist:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit br.com.jplsoft.mylist:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout br.com.jplsoft.mylist:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height br.com.jplsoft.mylist:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle br.com.jplsoft.mylist:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle br.com.jplsoft.mylist:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background br.com.lumontsoft.checklist:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit br.com.lumontsoft.checklist:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout br.com.lumontsoft.checklist:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height br.com.lumontsoft.checklist:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle br.com.lumontsoft.checklist:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle br.com.lumontsoft.checklist:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3486,7 +3486,7 @@ public final class R {
       0x7f0200d1, 0x7f0200f5
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#background}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3494,11 +3494,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:background
+     * @attr name br.com.lumontsoft.checklist:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3509,11 +3509,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:backgroundSplit
+     * @attr name br.com.lumontsoft.checklist:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3521,11 +3521,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:closeItemLayout
+     * @attr name br.com.lumontsoft.checklist:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#height}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3534,11 +3534,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:height
+     * @attr name br.com.lumontsoft.checklist:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3546,11 +3546,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:subtitleTextStyle
+     * @attr name br.com.lumontsoft.checklist:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3558,7 +3558,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:titleTextStyle
+     * @attr name br.com.lumontsoft.checklist:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3568,8 +3568,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable br.com.jplsoft.mylist:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount br.com.jplsoft.mylist:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable br.com.lumontsoft.checklist:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount br.com.lumontsoft.checklist:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -3578,7 +3578,7 @@ public final class R {
       0x7f020070, 0x7f020087
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3586,17 +3586,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:expandActivityOverflowButtonDrawable
+     * @attr name br.com.lumontsoft.checklist:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:initialActivityCount
+     * @attr name br.com.lumontsoft.checklist:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -3607,13 +3607,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen br.com.jplsoft.mylist:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout br.com.jplsoft.mylist:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout br.com.jplsoft.mylist:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout br.com.jplsoft.mylist:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout br.com.jplsoft.mylist:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle br.com.jplsoft.mylist:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout br.com.jplsoft.mylist:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen br.com.lumontsoft.checklist:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout br.com.lumontsoft.checklist:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout br.com.lumontsoft.checklist:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout br.com.lumontsoft.checklist:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout br.com.lumontsoft.checklist:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle br.com.lumontsoft.checklist:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout br.com.lumontsoft.checklist:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -3641,7 +3641,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3650,11 +3650,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:buttonIconDimen
+     * @attr name br.com.lumontsoft.checklist:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3662,11 +3662,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonPanelSideLayout
+     * @attr name br.com.lumontsoft.checklist:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3674,11 +3674,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:listItemLayout
+     * @attr name br.com.lumontsoft.checklist:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3686,11 +3686,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:listLayout
+     * @attr name br.com.lumontsoft.checklist:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3698,21 +3698,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:multiChoiceItemLayout
+     * @attr name br.com.lumontsoft.checklist:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:showTitle
+     * @attr name br.com.lumontsoft.checklist:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3720,7 +3720,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:singleChoiceItemLayout
+     * @attr name br.com.lumontsoft.checklist:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -3731,9 +3731,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat br.com.jplsoft.mylist:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint br.com.jplsoft.mylist:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode br.com.jplsoft.mylist:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat br.com.lumontsoft.checklist:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint br.com.lumontsoft.checklist:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode br.com.lumontsoft.checklist:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -3759,7 +3759,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3767,22 +3767,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:srcCompat
+     * @attr name br.com.lumontsoft.checklist:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:tint
+     * @attr name br.com.lumontsoft.checklist:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3799,7 +3799,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:tintMode
+     * @attr name br.com.lumontsoft.checklist:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -3810,9 +3810,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark br.com.jplsoft.mylist:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint br.com.jplsoft.mylist:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode br.com.jplsoft.mylist:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark br.com.lumontsoft.checklist:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint br.com.lumontsoft.checklist:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode br.com.lumontsoft.checklist:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -3835,7 +3835,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3843,22 +3843,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:tickMark
+     * @attr name br.com.lumontsoft.checklist:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:tickMarkTint
+     * @attr name br.com.lumontsoft.checklist:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3875,7 +3875,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:tickMarkTintMode
+     * @attr name br.com.lumontsoft.checklist:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4015,13 +4015,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize br.com.jplsoft.mylist:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize br.com.jplsoft.mylist:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes br.com.jplsoft.mylist:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity br.com.jplsoft.mylist:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType br.com.jplsoft.mylist:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily br.com.jplsoft.mylist:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps br.com.jplsoft.mylist:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize br.com.lumontsoft.checklist:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize br.com.lumontsoft.checklist:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes br.com.lumontsoft.checklist:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity br.com.lumontsoft.checklist:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType br.com.lumontsoft.checklist:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily br.com.lumontsoft.checklist:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps br.com.lumontsoft.checklist:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4049,7 +4049,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4058,11 +4058,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:autoSizeMaxTextSize
+     * @attr name br.com.lumontsoft.checklist:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4071,11 +4071,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:autoSizeMinTextSize
+     * @attr name br.com.lumontsoft.checklist:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4083,11 +4083,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:autoSizePresetSizes
+     * @attr name br.com.lumontsoft.checklist:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4096,11 +4096,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:autoSizeStepGranularity
+     * @attr name br.com.lumontsoft.checklist:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4113,21 +4113,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:autoSizeTextType
+     * @attr name br.com.lumontsoft.checklist:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:fontFamily
+     * @attr name br.com.lumontsoft.checklist:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4137,7 +4137,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAllCaps
+     * @attr name br.com.lumontsoft.checklist:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -4149,124 +4149,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider br.com.jplsoft.mylist:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground br.com.jplsoft.mylist:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme br.com.jplsoft.mylist:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize br.com.jplsoft.mylist:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle br.com.jplsoft.mylist:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle br.com.jplsoft.mylist:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle br.com.jplsoft.mylist:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle br.com.jplsoft.mylist:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle br.com.jplsoft.mylist:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme br.com.jplsoft.mylist:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme br.com.jplsoft.mylist:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle br.com.jplsoft.mylist:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle br.com.jplsoft.mylist:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance br.com.jplsoft.mylist:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor br.com.jplsoft.mylist:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground br.com.jplsoft.mylist:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle br.com.jplsoft.mylist:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable br.com.jplsoft.mylist:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable br.com.jplsoft.mylist:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable br.com.jplsoft.mylist:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable br.com.jplsoft.mylist:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable br.com.jplsoft.mylist:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle br.com.jplsoft.mylist:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable br.com.jplsoft.mylist:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable br.com.jplsoft.mylist:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground br.com.jplsoft.mylist:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle br.com.jplsoft.mylist:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable br.com.jplsoft.mylist:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle br.com.jplsoft.mylist:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle br.com.jplsoft.mylist:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle br.com.jplsoft.mylist:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle br.com.jplsoft.mylist:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons br.com.jplsoft.mylist:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle br.com.jplsoft.mylist:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme br.com.jplsoft.mylist:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle br.com.jplsoft.mylist:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle br.com.jplsoft.mylist:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle br.com.jplsoft.mylist:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle br.com.jplsoft.mylist:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle br.com.jplsoft.mylist:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle br.com.jplsoft.mylist:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle br.com.jplsoft.mylist:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle br.com.jplsoft.mylist:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall br.com.jplsoft.mylist:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle br.com.jplsoft.mylist:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle br.com.jplsoft.mylist:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent br.com.jplsoft.mylist:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating br.com.jplsoft.mylist:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal br.com.jplsoft.mylist:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated br.com.jplsoft.mylist:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight br.com.jplsoft.mylist:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal br.com.jplsoft.mylist:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError br.com.jplsoft.mylist:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary br.com.jplsoft.mylist:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark br.com.jplsoft.mylist:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal br.com.jplsoft.mylist:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground br.com.jplsoft.mylist:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding br.com.jplsoft.mylist:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme br.com.jplsoft.mylist:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal br.com.jplsoft.mylist:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical br.com.jplsoft.mylist:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle br.com.jplsoft.mylist:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight br.com.jplsoft.mylist:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground br.com.jplsoft.mylist:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor br.com.jplsoft.mylist:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle br.com.jplsoft.mylist:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator br.com.jplsoft.mylist:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle br.com.jplsoft.mylist:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator br.com.jplsoft.mylist:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog br.com.jplsoft.mylist:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle br.com.jplsoft.mylist:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle br.com.jplsoft.mylist:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight br.com.jplsoft.mylist:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge br.com.jplsoft.mylist:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall br.com.jplsoft.mylist:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft br.com.jplsoft.mylist:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight br.com.jplsoft.mylist:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground br.com.jplsoft.mylist:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme br.com.jplsoft.mylist:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth br.com.jplsoft.mylist:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle br.com.jplsoft.mylist:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle br.com.jplsoft.mylist:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle br.com.jplsoft.mylist:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle br.com.jplsoft.mylist:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator br.com.jplsoft.mylist:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall br.com.jplsoft.mylist:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle br.com.jplsoft.mylist:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle br.com.jplsoft.mylist:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground br.com.jplsoft.mylist:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless br.com.jplsoft.mylist:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle br.com.jplsoft.mylist:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle br.com.jplsoft.mylist:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle br.com.jplsoft.mylist:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu br.com.jplsoft.mylist:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem br.com.jplsoft.mylist:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary br.com.jplsoft.mylist:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall br.com.jplsoft.mylist:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader br.com.jplsoft.mylist:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle br.com.jplsoft.mylist:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle br.com.jplsoft.mylist:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu br.com.jplsoft.mylist:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem br.com.jplsoft.mylist:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl br.com.jplsoft.mylist:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle br.com.jplsoft.mylist:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle br.com.jplsoft.mylist:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor br.com.jplsoft.mylist:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground br.com.jplsoft.mylist:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass br.com.jplsoft.mylist:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar br.com.jplsoft.mylist:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay br.com.jplsoft.mylist:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay br.com.jplsoft.mylist:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor br.com.jplsoft.mylist:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor br.com.jplsoft.mylist:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor br.com.jplsoft.mylist:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor br.com.jplsoft.mylist:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor br.com.jplsoft.mylist:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor br.com.jplsoft.mylist:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle br.com.jplsoft.mylist:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider br.com.lumontsoft.checklist:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground br.com.lumontsoft.checklist:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme br.com.lumontsoft.checklist:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize br.com.lumontsoft.checklist:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle br.com.lumontsoft.checklist:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle br.com.lumontsoft.checklist:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle br.com.lumontsoft.checklist:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle br.com.lumontsoft.checklist:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle br.com.lumontsoft.checklist:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme br.com.lumontsoft.checklist:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme br.com.lumontsoft.checklist:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle br.com.lumontsoft.checklist:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle br.com.lumontsoft.checklist:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance br.com.lumontsoft.checklist:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor br.com.lumontsoft.checklist:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground br.com.lumontsoft.checklist:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle br.com.lumontsoft.checklist:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable br.com.lumontsoft.checklist:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable br.com.lumontsoft.checklist:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable br.com.lumontsoft.checklist:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable br.com.lumontsoft.checklist:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable br.com.lumontsoft.checklist:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle br.com.lumontsoft.checklist:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable br.com.lumontsoft.checklist:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable br.com.lumontsoft.checklist:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground br.com.lumontsoft.checklist:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle br.com.lumontsoft.checklist:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable br.com.lumontsoft.checklist:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle br.com.lumontsoft.checklist:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle br.com.lumontsoft.checklist:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle br.com.lumontsoft.checklist:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle br.com.lumontsoft.checklist:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons br.com.lumontsoft.checklist:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle br.com.lumontsoft.checklist:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme br.com.lumontsoft.checklist:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle br.com.lumontsoft.checklist:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle br.com.lumontsoft.checklist:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle br.com.lumontsoft.checklist:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle br.com.lumontsoft.checklist:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle br.com.lumontsoft.checklist:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle br.com.lumontsoft.checklist:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle br.com.lumontsoft.checklist:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle br.com.lumontsoft.checklist:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall br.com.lumontsoft.checklist:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle br.com.lumontsoft.checklist:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle br.com.lumontsoft.checklist:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent br.com.lumontsoft.checklist:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating br.com.lumontsoft.checklist:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal br.com.lumontsoft.checklist:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated br.com.lumontsoft.checklist:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight br.com.lumontsoft.checklist:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal br.com.lumontsoft.checklist:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError br.com.lumontsoft.checklist:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary br.com.lumontsoft.checklist:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark br.com.lumontsoft.checklist:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal br.com.lumontsoft.checklist:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground br.com.lumontsoft.checklist:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding br.com.lumontsoft.checklist:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme br.com.lumontsoft.checklist:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal br.com.lumontsoft.checklist:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical br.com.lumontsoft.checklist:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle br.com.lumontsoft.checklist:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight br.com.lumontsoft.checklist:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground br.com.lumontsoft.checklist:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor br.com.lumontsoft.checklist:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle br.com.lumontsoft.checklist:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator br.com.lumontsoft.checklist:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle br.com.lumontsoft.checklist:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator br.com.lumontsoft.checklist:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog br.com.lumontsoft.checklist:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle br.com.lumontsoft.checklist:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle br.com.lumontsoft.checklist:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight br.com.lumontsoft.checklist:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge br.com.lumontsoft.checklist:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall br.com.lumontsoft.checklist:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft br.com.lumontsoft.checklist:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight br.com.lumontsoft.checklist:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground br.com.lumontsoft.checklist:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme br.com.lumontsoft.checklist:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth br.com.lumontsoft.checklist:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle br.com.lumontsoft.checklist:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle br.com.lumontsoft.checklist:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle br.com.lumontsoft.checklist:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle br.com.lumontsoft.checklist:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator br.com.lumontsoft.checklist:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall br.com.lumontsoft.checklist:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle br.com.lumontsoft.checklist:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle br.com.lumontsoft.checklist:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground br.com.lumontsoft.checklist:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless br.com.lumontsoft.checklist:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle br.com.lumontsoft.checklist:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle br.com.lumontsoft.checklist:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle br.com.lumontsoft.checklist:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu br.com.lumontsoft.checklist:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem br.com.lumontsoft.checklist:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary br.com.lumontsoft.checklist:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall br.com.lumontsoft.checklist:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader br.com.lumontsoft.checklist:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle br.com.lumontsoft.checklist:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle br.com.lumontsoft.checklist:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu br.com.lumontsoft.checklist:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem br.com.lumontsoft.checklist:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl br.com.lumontsoft.checklist:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle br.com.lumontsoft.checklist:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle br.com.lumontsoft.checklist:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor br.com.lumontsoft.checklist:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground br.com.lumontsoft.checklist:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass br.com.lumontsoft.checklist:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar br.com.lumontsoft.checklist:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay br.com.lumontsoft.checklist:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay br.com.lumontsoft.checklist:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor br.com.lumontsoft.checklist:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor br.com.lumontsoft.checklist:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor br.com.lumontsoft.checklist:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor br.com.lumontsoft.checklist:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor br.com.lumontsoft.checklist:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor br.com.lumontsoft.checklist:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle br.com.lumontsoft.checklist:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -4444,7 +4444,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4452,11 +4452,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarDivider
+     * @attr name br.com.lumontsoft.checklist:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4464,11 +4464,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarItemBackground
+     * @attr name br.com.lumontsoft.checklist:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4476,11 +4476,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarPopupTheme
+     * @attr name br.com.lumontsoft.checklist:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4497,11 +4497,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:actionBarSize
+     * @attr name br.com.lumontsoft.checklist:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4509,11 +4509,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarSplitStyle
+     * @attr name br.com.lumontsoft.checklist:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4521,11 +4521,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarStyle
+     * @attr name br.com.lumontsoft.checklist:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4533,11 +4533,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarTabBarStyle
+     * @attr name br.com.lumontsoft.checklist:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4545,11 +4545,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarTabStyle
+     * @attr name br.com.lumontsoft.checklist:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4557,11 +4557,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarTabTextStyle
+     * @attr name br.com.lumontsoft.checklist:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4569,11 +4569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarTheme
+     * @attr name br.com.lumontsoft.checklist:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4581,11 +4581,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionBarWidgetTheme
+     * @attr name br.com.lumontsoft.checklist:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4593,11 +4593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionButtonStyle
+     * @attr name br.com.lumontsoft.checklist:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4605,11 +4605,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionDropDownStyle
+     * @attr name br.com.lumontsoft.checklist:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4617,11 +4617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionMenuTextAppearance
+     * @attr name br.com.lumontsoft.checklist:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4632,11 +4632,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionMenuTextColor
+     * @attr name br.com.lumontsoft.checklist:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4644,11 +4644,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeBackground
+     * @attr name br.com.lumontsoft.checklist:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4656,11 +4656,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeCloseButtonStyle
+     * @attr name br.com.lumontsoft.checklist:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4668,11 +4668,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeCloseDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4680,11 +4680,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeCopyDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4692,11 +4692,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeCutDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4704,11 +4704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeFindDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4716,11 +4716,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModePasteDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4728,11 +4728,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModePopupWindowStyle
+     * @attr name br.com.lumontsoft.checklist:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4740,11 +4740,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeSelectAllDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4752,11 +4752,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeShareDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4764,11 +4764,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeSplitBackground
+     * @attr name br.com.lumontsoft.checklist:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4776,11 +4776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeStyle
+     * @attr name br.com.lumontsoft.checklist:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4788,11 +4788,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionModeWebSearchDrawable
+     * @attr name br.com.lumontsoft.checklist:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4800,11 +4800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionOverflowButtonStyle
+     * @attr name br.com.lumontsoft.checklist:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4812,11 +4812,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionOverflowMenuStyle
+     * @attr name br.com.lumontsoft.checklist:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4824,11 +4824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:activityChooserViewStyle
+     * @attr name br.com.lumontsoft.checklist:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4836,21 +4836,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:alertDialogButtonGroupStyle
+     * @attr name br.com.lumontsoft.checklist:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:alertDialogCenterButtons
+     * @attr name br.com.lumontsoft.checklist:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4858,11 +4858,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:alertDialogStyle
+     * @attr name br.com.lumontsoft.checklist:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4870,11 +4870,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:alertDialogTheme
+     * @attr name br.com.lumontsoft.checklist:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4882,11 +4882,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:autoCompleteTextViewStyle
+     * @attr name br.com.lumontsoft.checklist:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4894,11 +4894,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:borderlessButtonStyle
+     * @attr name br.com.lumontsoft.checklist:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4906,11 +4906,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonBarButtonStyle
+     * @attr name br.com.lumontsoft.checklist:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4918,11 +4918,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonBarNegativeButtonStyle
+     * @attr name br.com.lumontsoft.checklist:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4930,11 +4930,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonBarNeutralButtonStyle
+     * @attr name br.com.lumontsoft.checklist:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4942,11 +4942,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonBarPositiveButtonStyle
+     * @attr name br.com.lumontsoft.checklist:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4954,11 +4954,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonBarStyle
+     * @attr name br.com.lumontsoft.checklist:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4966,11 +4966,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonStyle
+     * @attr name br.com.lumontsoft.checklist:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4978,11 +4978,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonStyleSmall
+     * @attr name br.com.lumontsoft.checklist:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4990,11 +4990,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:checkboxStyle
+     * @attr name br.com.lumontsoft.checklist:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5002,77 +5002,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:checkedTextViewStyle
+     * @attr name br.com.lumontsoft.checklist:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorAccent
+     * @attr name br.com.lumontsoft.checklist:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorBackgroundFloating
+     * @attr name br.com.lumontsoft.checklist:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorButtonNormal
+     * @attr name br.com.lumontsoft.checklist:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorControlActivated
+     * @attr name br.com.lumontsoft.checklist:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorControlHighlight
+     * @attr name br.com.lumontsoft.checklist:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorControlNormal
+     * @attr name br.com.lumontsoft.checklist:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5083,44 +5083,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorError
+     * @attr name br.com.lumontsoft.checklist:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorPrimary
+     * @attr name br.com.lumontsoft.checklist:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorPrimaryDark
+     * @attr name br.com.lumontsoft.checklist:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:colorSwitchThumbNormal
+     * @attr name br.com.lumontsoft.checklist:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5128,11 +5128,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:controlBackground
+     * @attr name br.com.lumontsoft.checklist:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5141,11 +5141,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:dialogPreferredPadding
+     * @attr name br.com.lumontsoft.checklist:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5153,11 +5153,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:dialogTheme
+     * @attr name br.com.lumontsoft.checklist:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5165,11 +5165,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:dividerHorizontal
+     * @attr name br.com.lumontsoft.checklist:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5177,11 +5177,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:dividerVertical
+     * @attr name br.com.lumontsoft.checklist:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5189,11 +5189,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:dropDownListViewStyle
+     * @attr name br.com.lumontsoft.checklist:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5202,11 +5202,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:dropdownListPreferredItemHeight
+     * @attr name br.com.lumontsoft.checklist:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5214,11 +5214,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:editTextBackground
+     * @attr name br.com.lumontsoft.checklist:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5229,11 +5229,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:editTextColor
+     * @attr name br.com.lumontsoft.checklist:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5241,11 +5241,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:editTextStyle
+     * @attr name br.com.lumontsoft.checklist:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5253,11 +5253,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:homeAsUpIndicator
+     * @attr name br.com.lumontsoft.checklist:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5265,11 +5265,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:imageButtonStyle
+     * @attr name br.com.lumontsoft.checklist:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5277,11 +5277,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:listChoiceBackgroundIndicator
+     * @attr name br.com.lumontsoft.checklist:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5289,11 +5289,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:listDividerAlertDialog
+     * @attr name br.com.lumontsoft.checklist:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5301,11 +5301,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:listMenuViewStyle
+     * @attr name br.com.lumontsoft.checklist:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5313,11 +5313,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:listPopupWindowStyle
+     * @attr name br.com.lumontsoft.checklist:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5326,11 +5326,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:listPreferredItemHeight
+     * @attr name br.com.lumontsoft.checklist:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5339,11 +5339,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:listPreferredItemHeightLarge
+     * @attr name br.com.lumontsoft.checklist:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5352,11 +5352,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:listPreferredItemHeightSmall
+     * @attr name br.com.lumontsoft.checklist:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5365,11 +5365,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:listPreferredItemPaddingLeft
+     * @attr name br.com.lumontsoft.checklist:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5378,11 +5378,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:listPreferredItemPaddingRight
+     * @attr name br.com.lumontsoft.checklist:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5390,11 +5390,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:panelBackground
+     * @attr name br.com.lumontsoft.checklist:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5402,11 +5402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:panelMenuListTheme
+     * @attr name br.com.lumontsoft.checklist:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5415,11 +5415,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:panelMenuListWidth
+     * @attr name br.com.lumontsoft.checklist:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5427,11 +5427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:popupMenuStyle
+     * @attr name br.com.lumontsoft.checklist:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5439,11 +5439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:popupWindowStyle
+     * @attr name br.com.lumontsoft.checklist:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5451,11 +5451,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:radioButtonStyle
+     * @attr name br.com.lumontsoft.checklist:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5463,11 +5463,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:ratingBarStyle
+     * @attr name br.com.lumontsoft.checklist:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5475,11 +5475,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:ratingBarStyleIndicator
+     * @attr name br.com.lumontsoft.checklist:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5487,11 +5487,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:ratingBarStyleSmall
+     * @attr name br.com.lumontsoft.checklist:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5499,11 +5499,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:searchViewStyle
+     * @attr name br.com.lumontsoft.checklist:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5511,11 +5511,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:seekBarStyle
+     * @attr name br.com.lumontsoft.checklist:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5523,11 +5523,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:selectableItemBackground
+     * @attr name br.com.lumontsoft.checklist:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5535,11 +5535,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:selectableItemBackgroundBorderless
+     * @attr name br.com.lumontsoft.checklist:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5547,11 +5547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:spinnerDropDownItemStyle
+     * @attr name br.com.lumontsoft.checklist:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5559,11 +5559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:spinnerStyle
+     * @attr name br.com.lumontsoft.checklist:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5571,11 +5571,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:switchStyle
+     * @attr name br.com.lumontsoft.checklist:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5583,11 +5583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceLargePopupMenu
+     * @attr name br.com.lumontsoft.checklist:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5595,11 +5595,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceListItem
+     * @attr name br.com.lumontsoft.checklist:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5607,11 +5607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceListItemSecondary
+     * @attr name br.com.lumontsoft.checklist:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5619,11 +5619,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceListItemSmall
+     * @attr name br.com.lumontsoft.checklist:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5631,11 +5631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearancePopupMenuHeader
+     * @attr name br.com.lumontsoft.checklist:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5643,11 +5643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceSearchResultSubtitle
+     * @attr name br.com.lumontsoft.checklist:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5655,11 +5655,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceSearchResultTitle
+     * @attr name br.com.lumontsoft.checklist:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5667,11 +5667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAppearanceSmallPopupMenu
+     * @attr name br.com.lumontsoft.checklist:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5682,11 +5682,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textColorAlertDialogListItem
+     * @attr name br.com.lumontsoft.checklist:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5697,11 +5697,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:textColorSearchUrl
+     * @attr name br.com.lumontsoft.checklist:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5709,11 +5709,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:toolbarNavigationButtonStyle
+     * @attr name br.com.lumontsoft.checklist:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5721,11 +5721,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:toolbarStyle
+     * @attr name br.com.lumontsoft.checklist:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5736,11 +5736,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:tooltipForegroundColor
+     * @attr name br.com.lumontsoft.checklist:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5748,51 +5748,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:tooltipFrameBackground
+     * @attr name br.com.lumontsoft.checklist:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:viewInflaterClass
+     * @attr name br.com.lumontsoft.checklist:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:windowActionBar
+     * @attr name br.com.lumontsoft.checklist:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:windowActionBarOverlay
+     * @attr name br.com.lumontsoft.checklist:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:windowActionModeOverlay
+     * @attr name br.com.lumontsoft.checklist:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5805,11 +5805,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name br.com.jplsoft.mylist:windowFixedHeightMajor
+     * @attr name br.com.lumontsoft.checklist:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5822,11 +5822,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name br.com.jplsoft.mylist:windowFixedHeightMinor
+     * @attr name br.com.lumontsoft.checklist:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5839,11 +5839,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name br.com.jplsoft.mylist:windowFixedWidthMajor
+     * @attr name br.com.lumontsoft.checklist:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5856,11 +5856,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name br.com.jplsoft.mylist:windowFixedWidthMinor
+     * @attr name br.com.lumontsoft.checklist:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5873,11 +5873,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name br.com.jplsoft.mylist:windowMinWidthMajor
+     * @attr name br.com.lumontsoft.checklist:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5890,17 +5890,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name br.com.jplsoft.mylist:windowMinWidthMinor
+     * @attr name br.com.lumontsoft.checklist:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:windowNoTitle
+     * @attr name br.com.lumontsoft.checklist:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -5910,7 +5910,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking br.com.jplsoft.mylist:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking br.com.lumontsoft.checklist:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -5918,13 +5918,13 @@ public final class R {
       0x7f020026
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:allowStacking
+     * @attr name br.com.lumontsoft.checklist:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -5936,7 +5936,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha br.com.jplsoft.mylist:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha br.com.lumontsoft.checklist:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -5966,12 +5966,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name br.com.jplsoft.mylist:alpha
+     * @attr name br.com.lumontsoft.checklist:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -5982,8 +5982,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint br.com.jplsoft.mylist:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode br.com.jplsoft.mylist:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint br.com.lumontsoft.checklist:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode br.com.lumontsoft.checklist:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6005,18 +6005,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:buttonTint
+     * @attr name br.com.lumontsoft.checklist:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6033,7 +6033,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:buttonTintMode
+     * @attr name br.com.lumontsoft.checklist:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -6043,8 +6043,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines br.com.jplsoft.mylist:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground br.com.jplsoft.mylist:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines br.com.lumontsoft.checklist:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground br.com.lumontsoft.checklist:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -6053,7 +6053,7 @@ public final class R {
       0x7f02008a, 0x7f0200cb
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6061,11 +6061,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:keylines
+     * @attr name br.com.lumontsoft.checklist:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6076,7 +6076,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:statusBarBackground
+     * @attr name br.com.lumontsoft.checklist:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -6087,12 +6087,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor br.com.jplsoft.mylist:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity br.com.jplsoft.mylist:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior br.com.jplsoft.mylist:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges br.com.jplsoft.mylist:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge br.com.jplsoft.mylist:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline br.com.jplsoft.mylist:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor br.com.lumontsoft.checklist:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity br.com.lumontsoft.checklist:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior br.com.lumontsoft.checklist:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges br.com.lumontsoft.checklist:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge br.com.lumontsoft.checklist:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline br.com.lumontsoft.checklist:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -6136,7 +6136,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6144,11 +6144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:layout_anchor
+     * @attr name br.com.lumontsoft.checklist:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6173,21 +6173,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:layout_anchorGravity
+     * @attr name br.com.lumontsoft.checklist:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:layout_behavior
+     * @attr name br.com.lumontsoft.checklist:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6206,11 +6206,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:layout_dodgeInsetEdges
+     * @attr name br.com.lumontsoft.checklist:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6228,16 +6228,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:layout_insetEdge
+     * @attr name br.com.lumontsoft.checklist:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name br.com.jplsoft.mylist:layout_keyline
+     * @attr name br.com.lumontsoft.checklist:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -6247,14 +6247,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength br.com.jplsoft.mylist:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength br.com.jplsoft.mylist:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength br.com.jplsoft.mylist:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color br.com.jplsoft.mylist:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize br.com.jplsoft.mylist:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars br.com.jplsoft.mylist:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars br.com.jplsoft.mylist:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness br.com.jplsoft.mylist:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength br.com.lumontsoft.checklist:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength br.com.lumontsoft.checklist:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength br.com.lumontsoft.checklist:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color br.com.lumontsoft.checklist:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize br.com.lumontsoft.checklist:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars br.com.lumontsoft.checklist:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars br.com.lumontsoft.checklist:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness br.com.lumontsoft.checklist:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -6270,7 +6270,7 @@ public final class R {
       0x7f020068, 0x7f02007b, 0x7f0200c5, 0x7f0200e3
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6279,11 +6279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:arrowHeadLength
+     * @attr name br.com.lumontsoft.checklist:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6292,11 +6292,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:arrowShaftLength
+     * @attr name br.com.lumontsoft.checklist:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6305,22 +6305,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:barLength
+     * @attr name br.com.lumontsoft.checklist:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#color}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:color
+     * @attr name br.com.lumontsoft.checklist:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6329,11 +6329,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:drawableSize
+     * @attr name br.com.lumontsoft.checklist:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6342,21 +6342,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:gapBetweenBars
+     * @attr name br.com.lumontsoft.checklist:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:spinBars
+     * @attr name br.com.lumontsoft.checklist:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6365,7 +6365,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:thickness
+     * @attr name br.com.lumontsoft.checklist:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -6375,12 +6375,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority br.com.jplsoft.mylist:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts br.com.jplsoft.mylist:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy br.com.jplsoft.mylist:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout br.com.jplsoft.mylist:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage br.com.jplsoft.mylist:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery br.com.jplsoft.mylist:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority br.com.lumontsoft.checklist:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts br.com.lumontsoft.checklist:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy br.com.lumontsoft.checklist:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout br.com.lumontsoft.checklist:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage br.com.lumontsoft.checklist:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery br.com.lumontsoft.checklist:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -6394,17 +6394,17 @@ public final class R {
       0x7f020077, 0x7f020078
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:fontProviderAuthority
+     * @attr name br.com.lumontsoft.checklist:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6412,11 +6412,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:fontProviderCerts
+     * @attr name br.com.lumontsoft.checklist:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6429,11 +6429,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:fontProviderFetchStrategy
+     * @attr name br.com.lumontsoft.checklist:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -6446,27 +6446,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:fontProviderFetchTimeout
+     * @attr name br.com.lumontsoft.checklist:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:fontProviderPackage
+     * @attr name br.com.lumontsoft.checklist:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:fontProviderQuery
+     * @attr name br.com.lumontsoft.checklist:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -6479,9 +6479,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font br.com.jplsoft.mylist:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle br.com.jplsoft.mylist:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight br.com.jplsoft.mylist:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font br.com.lumontsoft.checklist:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle br.com.lumontsoft.checklist:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight br.com.lumontsoft.checklist:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -6533,7 +6533,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#font}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6541,11 +6541,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:font
+     * @attr name br.com.lumontsoft.checklist:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6558,16 +6558,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:fontStyle
+     * @attr name br.com.lumontsoft.checklist:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name br.com.jplsoft.mylist:fontWeight
+     * @attr name br.com.lumontsoft.checklist:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -6582,10 +6582,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider br.com.jplsoft.mylist:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding br.com.jplsoft.mylist:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild br.com.jplsoft.mylist:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers br.com.jplsoft.mylist:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider br.com.lumontsoft.checklist:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding br.com.lumontsoft.checklist:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild br.com.lumontsoft.checklist:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers br.com.lumontsoft.checklist:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -6677,7 +6677,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#divider}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6685,11 +6685,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:divider
+     * @attr name br.com.lumontsoft.checklist:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6698,21 +6698,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:dividerPadding
+     * @attr name br.com.lumontsoft.checklist:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:measureWithLargestChild
+     * @attr name br.com.lumontsoft.checklist:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6727,7 +6727,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:showDividers
+     * @attr name br.com.lumontsoft.checklist:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -6999,16 +6999,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout br.com.jplsoft.mylist:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass br.com.jplsoft.mylist:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass br.com.jplsoft.mylist:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers br.com.jplsoft.mylist:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription br.com.jplsoft.mylist:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint br.com.jplsoft.mylist:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode br.com.jplsoft.mylist:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers br.com.jplsoft.mylist:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction br.com.jplsoft.mylist:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText br.com.jplsoft.mylist:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout br.com.lumontsoft.checklist:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass br.com.lumontsoft.checklist:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass br.com.lumontsoft.checklist:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers br.com.lumontsoft.checklist:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription br.com.lumontsoft.checklist:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint br.com.lumontsoft.checklist:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode br.com.lumontsoft.checklist:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers br.com.lumontsoft.checklist:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction br.com.lumontsoft.checklist:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText br.com.lumontsoft.checklist:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -7185,7 +7185,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7193,31 +7193,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:actionLayout
+     * @attr name br.com.lumontsoft.checklist:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:actionProviderClass
+     * @attr name br.com.lumontsoft.checklist:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:actionViewClass
+     * @attr name br.com.lumontsoft.checklist:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7234,32 +7234,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:alphabeticModifiers
+     * @attr name br.com.lumontsoft.checklist:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:contentDescription
+     * @attr name br.com.lumontsoft.checklist:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:iconTint
+     * @attr name br.com.lumontsoft.checklist:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7276,11 +7276,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:iconTintMode
+     * @attr name br.com.lumontsoft.checklist:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7297,11 +7297,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:numericModifiers
+     * @attr name br.com.lumontsoft.checklist:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7317,17 +7317,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:showAsAction
+     * @attr name br.com.lumontsoft.checklist:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:tooltipText
+     * @attr name br.com.lumontsoft.checklist:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -7344,8 +7344,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing br.com.jplsoft.mylist:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow br.com.jplsoft.mylist:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing br.com.lumontsoft.checklist:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow br.com.lumontsoft.checklist:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -7450,17 +7450,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:preserveIconSpacing
+     * @attr name br.com.lumontsoft.checklist:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7468,7 +7468,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:subMenuArrow
+     * @attr name br.com.lumontsoft.checklist:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -7480,7 +7480,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor br.com.jplsoft.mylist:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor br.com.lumontsoft.checklist:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -7517,13 +7517,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:overlapAnchor
+     * @attr name br.com.lumontsoft.checklist:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -7533,7 +7533,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor br.com.jplsoft.mylist:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor br.com.lumontsoft.checklist:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -7541,13 +7541,13 @@ public final class R {
       0x7f0200ca
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:state_above_anchor
+     * @attr name br.com.lumontsoft.checklist:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -7557,8 +7557,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons br.com.jplsoft.mylist:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle br.com.jplsoft.mylist:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons br.com.lumontsoft.checklist:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle br.com.lumontsoft.checklist:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -7567,7 +7567,7 @@ public final class R {
       0x7f0200a7, 0x7f0200aa
     };
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7576,11 +7576,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:paddingBottomNoButtons
+     * @attr name br.com.lumontsoft.checklist:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7589,7 +7589,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:paddingTopNoTitle
+     * @attr name br.com.lumontsoft.checklist:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -7603,19 +7603,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon br.com.jplsoft.mylist:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon br.com.jplsoft.mylist:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint br.com.jplsoft.mylist:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon br.com.jplsoft.mylist:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault br.com.jplsoft.mylist:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout br.com.jplsoft.mylist:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground br.com.jplsoft.mylist:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint br.com.jplsoft.mylist:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon br.com.jplsoft.mylist:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon br.com.jplsoft.mylist:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground br.com.jplsoft.mylist:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout br.com.jplsoft.mylist:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon br.com.jplsoft.mylist:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon br.com.lumontsoft.checklist:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon br.com.lumontsoft.checklist:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint br.com.lumontsoft.checklist:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon br.com.lumontsoft.checklist:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault br.com.lumontsoft.checklist:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout br.com.lumontsoft.checklist:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground br.com.lumontsoft.checklist:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint br.com.lumontsoft.checklist:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon br.com.lumontsoft.checklist:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon br.com.lumontsoft.checklist:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground br.com.lumontsoft.checklist:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout br.com.lumontsoft.checklist:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon br.com.lumontsoft.checklist:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -7753,7 +7753,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7761,11 +7761,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:closeIcon
+     * @attr name br.com.lumontsoft.checklist:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7773,21 +7773,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:commitIcon
+     * @attr name br.com.lumontsoft.checklist:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:defaultQueryHint
+     * @attr name br.com.lumontsoft.checklist:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7795,21 +7795,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:goIcon
+     * @attr name br.com.lumontsoft.checklist:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:iconifiedByDefault
+     * @attr name br.com.lumontsoft.checklist:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#layout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7817,11 +7817,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:layout
+     * @attr name br.com.lumontsoft.checklist:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7829,21 +7829,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:queryBackground
+     * @attr name br.com.lumontsoft.checklist:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:queryHint
+     * @attr name br.com.lumontsoft.checklist:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7851,11 +7851,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:searchHintIcon
+     * @attr name br.com.lumontsoft.checklist:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7863,11 +7863,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:searchIcon
+     * @attr name br.com.lumontsoft.checklist:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7875,11 +7875,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:submitBackground
+     * @attr name br.com.lumontsoft.checklist:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7887,11 +7887,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:suggestionRowLayout
+     * @attr name br.com.lumontsoft.checklist:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7899,7 +7899,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:voiceIcon
+     * @attr name br.com.lumontsoft.checklist:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -7913,7 +7913,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme br.com.jplsoft.mylist:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme br.com.lumontsoft.checklist:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -7988,7 +7988,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7996,7 +7996,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:popupTheme
+     * @attr name br.com.lumontsoft.checklist:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -8009,17 +8009,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText br.com.jplsoft.mylist:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack br.com.jplsoft.mylist:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth br.com.jplsoft.mylist:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding br.com.jplsoft.mylist:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance br.com.jplsoft.mylist:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding br.com.jplsoft.mylist:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint br.com.jplsoft.mylist:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode br.com.jplsoft.mylist:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track br.com.jplsoft.mylist:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint br.com.jplsoft.mylist:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode br.com.jplsoft.mylist:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText br.com.lumontsoft.checklist:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack br.com.lumontsoft.checklist:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth br.com.lumontsoft.checklist:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding br.com.lumontsoft.checklist:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance br.com.lumontsoft.checklist:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding br.com.lumontsoft.checklist:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint br.com.lumontsoft.checklist:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode br.com.lumontsoft.checklist:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track br.com.lumontsoft.checklist:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint br.com.lumontsoft.checklist:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode br.com.lumontsoft.checklist:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -8075,27 +8075,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#showText}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:showText
+     * @attr name br.com.lumontsoft.checklist:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:splitTrack
+     * @attr name br.com.lumontsoft.checklist:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8104,11 +8104,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:switchMinWidth
+     * @attr name br.com.lumontsoft.checklist:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8117,11 +8117,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:switchPadding
+     * @attr name br.com.lumontsoft.checklist:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8129,11 +8129,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:switchTextAppearance
+     * @attr name br.com.lumontsoft.checklist:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8142,22 +8142,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:thumbTextPadding
+     * @attr name br.com.lumontsoft.checklist:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:thumbTint
+     * @attr name br.com.lumontsoft.checklist:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8174,11 +8174,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:thumbTintMode
+     * @attr name br.com.lumontsoft.checklist:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#track}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8186,22 +8186,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:track
+     * @attr name br.com.lumontsoft.checklist:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:trackTint
+     * @attr name br.com.lumontsoft.checklist:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8218,7 +8218,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:trackTintMode
+     * @attr name br.com.lumontsoft.checklist:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -8239,8 +8239,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily br.com.jplsoft.mylist:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps br.com.jplsoft.mylist:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily br.com.lumontsoft.checklist:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps br.com.lumontsoft.checklist:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -8406,17 +8406,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:fontFamily
+     * @attr name br.com.lumontsoft.checklist:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8426,7 +8426,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name br.com.jplsoft.mylist:textAllCaps
+     * @attr name br.com.lumontsoft.checklist:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -8438,33 +8438,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity br.com.jplsoft.mylist:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription br.com.jplsoft.mylist:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon br.com.jplsoft.mylist:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd br.com.jplsoft.mylist:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions br.com.jplsoft.mylist:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft br.com.jplsoft.mylist:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight br.com.jplsoft.mylist:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart br.com.jplsoft.mylist:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation br.com.jplsoft.mylist:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo br.com.jplsoft.mylist:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription br.com.jplsoft.mylist:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight br.com.jplsoft.mylist:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription br.com.jplsoft.mylist:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon br.com.jplsoft.mylist:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme br.com.jplsoft.mylist:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle br.com.jplsoft.mylist:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance br.com.jplsoft.mylist:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor br.com.jplsoft.mylist:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title br.com.jplsoft.mylist:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin br.com.jplsoft.mylist:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom br.com.jplsoft.mylist:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd br.com.jplsoft.mylist:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart br.com.jplsoft.mylist:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop br.com.jplsoft.mylist:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins br.com.jplsoft.mylist:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance br.com.jplsoft.mylist:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor br.com.jplsoft.mylist:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity br.com.lumontsoft.checklist:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription br.com.lumontsoft.checklist:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon br.com.lumontsoft.checklist:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd br.com.lumontsoft.checklist:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions br.com.lumontsoft.checklist:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft br.com.lumontsoft.checklist:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight br.com.lumontsoft.checklist:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart br.com.lumontsoft.checklist:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation br.com.lumontsoft.checklist:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo br.com.lumontsoft.checklist:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription br.com.lumontsoft.checklist:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight br.com.lumontsoft.checklist:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription br.com.lumontsoft.checklist:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon br.com.lumontsoft.checklist:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme br.com.lumontsoft.checklist:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle br.com.lumontsoft.checklist:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance br.com.lumontsoft.checklist:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor br.com.lumontsoft.checklist:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title br.com.lumontsoft.checklist:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin br.com.lumontsoft.checklist:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom br.com.lumontsoft.checklist:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd br.com.lumontsoft.checklist:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart br.com.lumontsoft.checklist:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop br.com.lumontsoft.checklist:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins br.com.lumontsoft.checklist:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance br.com.lumontsoft.checklist:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor br.com.lumontsoft.checklist:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -8549,7 +8549,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8562,21 +8562,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:buttonGravity
+     * @attr name br.com.lumontsoft.checklist:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:collapseContentDescription
+     * @attr name br.com.lumontsoft.checklist:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8584,11 +8584,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:collapseIcon
+     * @attr name br.com.lumontsoft.checklist:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8597,11 +8597,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetEnd
+     * @attr name br.com.lumontsoft.checklist:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8610,11 +8610,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetEndWithActions
+     * @attr name br.com.lumontsoft.checklist:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8623,11 +8623,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetLeft
+     * @attr name br.com.lumontsoft.checklist:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8636,11 +8636,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetRight
+     * @attr name br.com.lumontsoft.checklist:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8649,11 +8649,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetStart
+     * @attr name br.com.lumontsoft.checklist:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8662,11 +8662,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:contentInsetStartWithNavigation
+     * @attr name br.com.lumontsoft.checklist:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#logo}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8674,21 +8674,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:logo
+     * @attr name br.com.lumontsoft.checklist:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:logoDescription
+     * @attr name br.com.lumontsoft.checklist:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8697,21 +8697,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:maxButtonHeight
+     * @attr name br.com.lumontsoft.checklist:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:navigationContentDescription
+     * @attr name br.com.lumontsoft.checklist:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8719,11 +8719,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:navigationIcon
+     * @attr name br.com.lumontsoft.checklist:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8731,21 +8731,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:popupTheme
+     * @attr name br.com.lumontsoft.checklist:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:subtitle
+     * @attr name br.com.lumontsoft.checklist:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8753,32 +8753,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:subtitleTextAppearance
+     * @attr name br.com.lumontsoft.checklist:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:subtitleTextColor
+     * @attr name br.com.lumontsoft.checklist:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#title}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name br.com.jplsoft.mylist:title
+     * @attr name br.com.lumontsoft.checklist:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8787,11 +8787,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:titleMargin
+     * @attr name br.com.lumontsoft.checklist:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8800,11 +8800,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:titleMarginBottom
+     * @attr name br.com.lumontsoft.checklist:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8813,11 +8813,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:titleMarginEnd
+     * @attr name br.com.lumontsoft.checklist:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8826,11 +8826,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:titleMarginStart
+     * @attr name br.com.lumontsoft.checklist:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8839,11 +8839,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:titleMarginTop
+     * @attr name br.com.lumontsoft.checklist:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8852,11 +8852,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:titleMargins
+     * @attr name br.com.lumontsoft.checklist:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8864,18 +8864,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:titleTextAppearance
+     * @attr name br.com.lumontsoft.checklist:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:titleTextColor
+     * @attr name br.com.lumontsoft.checklist:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -8887,9 +8887,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd br.com.jplsoft.mylist:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart br.com.jplsoft.mylist:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme br.com.jplsoft.mylist:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd br.com.lumontsoft.checklist:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart br.com.lumontsoft.checklist:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme br.com.lumontsoft.checklist:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -8932,7 +8932,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8941,11 +8941,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:paddingEnd
+     * @attr name br.com.lumontsoft.checklist:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8954,11 +8954,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name br.com.jplsoft.mylist:paddingStart
+     * @attr name br.com.lumontsoft.checklist:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#theme}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8966,7 +8966,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:theme
+     * @attr name br.com.lumontsoft.checklist:theme
      */
     public static final int View_theme=4;
     /**
@@ -8977,8 +8977,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint br.com.jplsoft.mylist:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode br.com.jplsoft.mylist:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint br.com.lumontsoft.checklist:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode br.com.lumontsoft.checklist:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -9003,18 +9003,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name br.com.jplsoft.mylist:backgroundTint
+     * @attr name br.com.lumontsoft.checklist:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link br.com.jplsoft.mylist.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link br.com.lumontsoft.checklist.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9031,7 +9031,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name br.com.jplsoft.mylist:backgroundTintMode
+     * @attr name br.com.lumontsoft.checklist:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

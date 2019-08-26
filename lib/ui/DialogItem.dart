@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mylist/helper/ListaComprasHelper.dart';
-import 'package:mylist/model/Compra.dart';
-import 'package:mylist/model/Item.dart';
+import 'package:checklist/helper/ListaComprasHelper.dart';
+import 'package:checklist/model/Compra.dart';
+import 'package:checklist/model/Item.dart';
 
 
 
@@ -122,26 +122,26 @@ class _DialogItemState extends State<DialogItem> {
                             height: 10,
                           ),
 
-                       qtdInserida == true ?  DropdownButton(
+                         DropdownButton(
                             isExpanded: true,
                             hint: Text('un'), // Not necessary for Option 1
                             value: medidaSelecionada ,
 
-                            onChanged: (newValue) {
+                            onChanged: qtdInserida == true ? (newValue) {
                               setState(() {
                                 _editedItem.medidaItem = newValue;
                                 medidaSelecionada = newValue;
 
                               });
 
-                            },
+                            }: null,
                             items: _locations.map((medida) {
                               return DropdownMenuItem(
                                 child: new Text(medida),
                                 value: medida,
                               );
                             }).toList(),
-                          ) : Container(),
+                          ) ,
                         ],
                       )))),
           actions: <Widget>[

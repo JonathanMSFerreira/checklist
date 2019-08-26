@@ -1,7 +1,7 @@
-import 'package:mylist/model/Compra.dart';
+import 'package:checklist/model/Compra.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:mylist/model/Item.dart';
+import 'package:checklist/model/Item.dart';
 
 
 

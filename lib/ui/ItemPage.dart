@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mylist/helper/ListaComprasHelper.dart';
-import 'package:mylist/model/Compra.dart';
-import 'package:mylist/model/Item.dart';
-import 'package:mylist/ui/DialogItem.dart';
-import 'package:share/share.dart';
-import 'package:mylist/ui/ChooseSharePage.dart';
+import 'package:checklist/helper/ListaComprasHelper.dart';
+import 'package:checklist/model/Compra.dart';
+import 'package:checklist/model/Item.dart';
+import 'package:checklist/ui/DialogItem.dart';
+import 'package:checklist/ui/ChooseSharePage.dart';
+
+import 'ListaComprasPage.dart';
 
 class ItemPage extends StatefulWidget {
 
@@ -75,6 +76,19 @@ class _ItemPageState extends State<ItemPage> {
           color: Colors.white, //change your color here
         ),
         title: Text(compra.name, style: TextStyle(color: Colors.white),),
+       leading:  IconButton(
+         icon: Icon(Icons.arrow_back),
+         onPressed: () {
+
+           Navigator.pushReplacement(
+               context,
+               MaterialPageRoute(
+                   builder: (context) => ListaComprasPage()));
+
+
+         },
+       ),
+       
         actions: <Widget>[
 
           _sizeItens.toString()  != '0' ? _menuItens(compra.id)

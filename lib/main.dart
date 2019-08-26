@@ -1,4 +1,4 @@
-import 'package:mylist/ui/HomePage.dart';
+import 'package:checklist/ui/HomePage.dart';
 
 
 import 'package:flutter/material.dart';

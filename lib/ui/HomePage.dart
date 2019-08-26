@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:mylist/ui/ListaComprasPage.dart';
+import 'package:checklist/ui/ListaComprasPage.dart';
 
 
 class HomePage extends StatefulWidget {

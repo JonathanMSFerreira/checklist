@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.jplsoft.mylist"
+    package="br.com.lumontsoft.checklist"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -26,7 +26,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="mylist" >
+        android:label="checklist" >
         <activity
             android:name="br.com.jplsoft.mylist.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -63,7 +63,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="br.com.jplsoft.mylist.flutter.image_provider"
+            android:authorities="br.com.lumontsoft.checklist.flutter.image_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

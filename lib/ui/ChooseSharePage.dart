@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mylist/helper/ListaComprasHelper.dart';
-import 'package:mylist/model/Compra.dart';
-import 'package:mylist/model/Item.dart';
+import 'package:checklist/helper/ListaComprasHelper.dart';
+import 'package:checklist/model/Compra.dart';
+import 'package:checklist/model/Item.dart';
 import 'package:share/share.dart';
 
 class ChooseSharePage extends StatefulWidget {
@@ -142,7 +142,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
 
       String listaCompartilhada = '';
-      listaCompartilhada = 'Lista' + compra.name + '\n';
+      listaCompartilhada = 'Lista ' + compra.name + '\n';
 
 
       for (Item item in list) {
@@ -178,6 +178,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
       String listaCompartilhada = '';
       listaCompartilhada = 'Lista ' + compra.name + '\n';
+
 
 
       for (Item item in list) {

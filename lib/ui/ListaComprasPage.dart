@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mylist/model/Compra.dart';
-import 'package:mylist/helper/ListaComprasHelper.dart';
-import 'package:mylist/ui/ChooseSharePage.dart';
-import 'package:mylist/ui/ItemPage.dart';
+import 'package:checklist/model/Compra.dart';
+import 'package:checklist/helper/ListaComprasHelper.dart';
+import 'package:checklist/ui/ItemPage.dart';
 
 class ListaComprasPage extends StatefulWidget {
   @override
@@ -24,13 +23,12 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
 
   @override
   void initState() {
+
     _editedCompra = Compra();
     _editedCompra.qtd = 0;
     helper.updateCompra(_editedCompra);
-
     _getAllCompras();
 
-    _getSize();
 
     super.initState();
   }
@@ -127,29 +125,30 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                               });
                             }))),
                 Container(
-                  child: IconButton(
+                  child:
+
+
+                  IconButton(
                     iconSize: 50,
                     icon: Icon(
                       Icons.add_circle,
-                      color: Colors.orangeAccent,
+                      color: _nameInserido == true ? Colors.orangeAccent: Colors.grey,
                     ),
                     onPressed: _nameInserido == true
                         ? () {
-                            if (_editedCompra.name != null &&
-                                _editedCompra.name.isNotEmpty) {
+                            if (_editedCompra.name != null && _editedCompra.name.isNotEmpty) {
+
                               Compra tmpCompra = _editedCompra;
-
                               helper.saveCompra(_editedCompra);
-
                               _editedCompra = Compra();
                               _nameController.text = "";
-                              _getSize();
+                              _nameInserido = false;
+
                               _getAllCompras();
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) =>
-                                          ItemPage(tmpCompra)));
+
+                              _dialogGerenciarLista(tmpCompra);
+
+
                             } else {
                               FocusScope.of(context).requestFocus(_nameFocus);
                               return null;
@@ -159,13 +158,65 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                                 .requestFocus(new FocusNode());
                           }
                         : null,
-                  ),
+                  )
                 )
               ],
             )
           ],
         ));
   }
+
+
+
+
+  void _dialogGerenciarLista(Compra compra) {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: new Text("Lista criada com sucesso", style: TextStyle(color: Colors.orangeAccent),),
+          content: Text("Deseja adicionar itens à lista \"" + compra.name + "\"?"),
+          actions: <Widget>[
+            // usually buttons at the bottom of the dialog
+            new FlatButton(
+              child: new Text(
+                "Agora não",
+                style: TextStyle(color: Colors.grey[400]),
+              ),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+
+            new RaisedButton(
+              child: new Text(
+                "Sim",
+                style: TextStyle(color: Colors.white),
+              ),
+              shape: new RoundedRectangleBorder(
+                  borderRadius: new BorderRadius.circular(30.0)),
+              onPressed: () {
+
+
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ItemPage(compra)));
+
+
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+
+
+
+
+
+
+
 
   void _dialogRemoveCompra(Compra compra) {
     showDialog(
@@ -198,7 +249,7 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                 helper.deleteCompra(compra.id);
                 Navigator.pop(context);
 
-                _getSize();
+
                 _getAllCompras();
               },
             ),
@@ -224,16 +275,11 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
     });
   }
 
-  void _getSize() {
-    helper.getSizeCompra().then((size) {
-      setState(() {
-        _sizeListaCompras = size.toString();
-      });
-    });
-  }
 
   Widget _cardCompra(BuildContext context, int index) {
-    _getSizeItens(listaCompras[index].id);
+
+
+   /* _getSizeItens(listaCompras[index].id);*/
 
     return Card(
         child: Column(
@@ -271,13 +317,13 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
               ),
               RaisedButton(
                 color: Colors.orangeAccent,
-                child: const Text('Gerenciar lista',
+                child: const Text('Gerenciar',
                     style: TextStyle(
                         fontWeight: FontWeight.bold, color: Colors.white)),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(30.0)),
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
                           builder: (context) => ItemPage(listaCompras[index])));
@@ -294,7 +340,7 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
     switch (compra.qtd) {
       case 0:
         {
-          return 'Nenhum item';
+          return 'Sem itens';
         }
       case 1:
         {
