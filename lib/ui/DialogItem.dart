@@ -124,7 +124,7 @@ class _DialogItemState extends State<DialogItem> {
 
                          DropdownButton(
                             isExpanded: true,
-                            hint: Text('un'), // Not necessary for Option 1
+                            hint: Text('sem unidade'), // Not necessary for Option 1
                             value: medidaSelecionada ,
 
                             onChanged: qtdInserida == true ? (newValue) {

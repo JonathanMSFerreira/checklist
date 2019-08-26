@@ -9,6 +9,8 @@ class ListaComprasPage extends StatefulWidget {
 }
 
 class _ListaComprasPageState extends State<ListaComprasPage> {
+
+
   Compra _editedCompra;
 
   final _nameController = TextEditingController();
@@ -26,8 +28,14 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
 
     _editedCompra = Compra();
     _editedCompra.qtd = 0;
+
     helper.updateCompra(_editedCompra);
+
+    _getSizeListas();
     _getAllCompras();
+
+
+
 
 
     super.initState();
@@ -145,6 +153,7 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                               _nameInserido = false;
 
                               _getAllCompras();
+                             _getSizeListas();
 
                               _dialogGerenciarLista(tmpCompra);
 
@@ -247,10 +256,13 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
                   borderRadius: new BorderRadius.circular(30.0)),
               onPressed: () {
                 helper.deleteCompra(compra.id);
+
+                _getSizeListas();
+                _getAllCompras();
                 Navigator.pop(context);
 
 
-                _getAllCompras();
+
               },
             ),
           ],
@@ -276,10 +288,26 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
   }
 
 
+  void _getSizeListas() {
+    helper.getSizeCompra().then((size) {
+      setState(() {
+
+
+        _sizeListaCompras = size.toString();
+
+        print("tamanho: "+_sizeListaCompras);
+
+      });
+    });
+  }
+
+
+
+
   Widget _cardCompra(BuildContext context, int index) {
 
 
-   /* _getSizeItens(listaCompras[index].id);*/
+   _getSizeItens(listaCompras[index].id);
 
     return Card(
         child: Column(

@@ -142,7 +142,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
 
 
       String listaCompartilhada = '';
-      listaCompartilhada = 'Lista ' + compra.name + '\n';
+      listaCompartilhada = 'LISTA' + compra.name.toUpperCase() + '\n';
 
 
       for (Item item in list) {
@@ -177,7 +177,7 @@ class _ChooseSharePageState extends State<ChooseSharePage> {
   Future<String> l =  helper.getItensPorStatus(compra.id, check).then((list) {
 
       String listaCompartilhada = '';
-      listaCompartilhada = 'Lista ' + compra.name + '\n';
+      listaCompartilhada = 'LISTA ' + compra.name.toUpperCase() + '\n';
 
 
 

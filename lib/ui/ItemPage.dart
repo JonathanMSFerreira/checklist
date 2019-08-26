@@ -31,6 +31,9 @@ class _ItemPageState extends State<ItemPage> {
 
   var nameInserido = false;
 
+
+  var  _qtdMarcados = 0;
+
   final _nameFocus = FocusNode();
 
   Compra compra;
@@ -40,6 +43,7 @@ class _ItemPageState extends State<ItemPage> {
   final _nameController = TextEditingController();
 
   final _qtdController = TextEditingController();
+
 
 
   List<String> _locations = ['un','kg', 'l', 'g', 'mg', 'T', 'ml'];
@@ -80,10 +84,7 @@ class _ItemPageState extends State<ItemPage> {
          icon: Icon(Icons.arrow_back),
          onPressed: () {
 
-           Navigator.pushReplacement(
-               context,
-               MaterialPageRoute(
-                   builder: (context) => ListaComprasPage()));
+           Navigator.of(context).pushNamedAndRemoveUntil('/listasPage', (Route<dynamic> route) => false);
 
 
          },
@@ -331,7 +332,13 @@ class _ItemPageState extends State<ItemPage> {
 
 
   Widget _menuItens(int fkCompra) => PopupMenuButton<int>(
+
+
+
     itemBuilder: (context) => [
+
+
+
       PopupMenuItem(
         value: 1,
         child: FlatButton.icon(onPressed: (){
@@ -346,7 +353,8 @@ class _ItemPageState extends State<ItemPage> {
         }, icon: Icon(Icons.share, ), label: Text("Enviar lista"))
       ),
 
-      PopupMenuItem(
+
+         PopupMenuItem(
           value: 2,
           child: FlatButton.icon(onPressed: (){
 
@@ -381,16 +389,8 @@ class _ItemPageState extends State<ItemPage> {
           value: 2,
           child: FlatButton.icon(onPressed: (){
 
-      /*      helper.deleteAllItens(fkCompra);
-
-            _getAllItens(compra.id);
-            _getSize(compra.id);*/
-
 
             _dialogCancelaLimpaLista(compra);
-
-
-          /*  Navigator.pop(context);*/
 
 
 
@@ -432,6 +432,8 @@ class _ItemPageState extends State<ItemPage> {
                   borderRadius: new BorderRadius.circular(30.0)),
               onPressed: () {
 
+                compra.qtd = 0;
+                helper.updateCompra(compra);
                 helper.deleteAllItens(compra.id);
 
                 _getAllItens(compra.id);
@@ -450,10 +452,24 @@ class _ItemPageState extends State<ItemPage> {
     );
   }
 
+
+  Future<int> _getIsMarcados(int fk, int status) {
+
+   Future<int> check =  helper.getIsItensMarcados(fk, status).then((size) {
+
+     return size;
+
+
+    });
+
+   return check;
+
+
+
+  }
+
+
 }
-
-
-
 
 
 

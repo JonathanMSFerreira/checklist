@@ -135,6 +135,17 @@ class CompraHelper {
 
 
   //Retorna o tamanho da lista
+  Future<int> getIsItensMarcados(int fk, int status) async {
+
+    Database dbListaCompras = await db;
+    return  Sqflite.firstIntValue(await dbListaCompras.rawQuery("SELECT * FROM $itemTable WHERE $fkCompraColumn = $fk AND $okColumn = $status"));
+
+
+  }
+
+
+
+  //Retorna o tamanho da lista
   Future<int> getSizeCompra() async {
 
     Database dbListaCompras = await db;
