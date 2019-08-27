@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:checklist/model/Compra.dart';
 import 'package:checklist/helper/ListaComprasHelper.dart';
 import 'package:checklist/ui/ItemPage.dart';
+import 'package:firebase_admob/firebase_admob.dart';
+
+
 
 class ListaComprasPage extends StatefulWidget {
   @override
@@ -47,6 +50,19 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
 
   @override
   Widget build(BuildContext context) {
+
+
+    FirebaseAdMob.instance.initialize(appId: "ca-app-pub-7018518907586805~4042856097").then((response){
+
+
+      myBanner..load()..show();
+
+
+    });
+
+/*    ca-app-pub-7018518907586805~4042856097*/
+
+
     return Scaffold(
         appBar: AppBar(
           title: Image.asset(
@@ -379,6 +395,30 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
         }
     }
   }
+
+
+  MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    keywords: <String>['home', 'grocery'],
+    contentUrl: 'https://flutter.io',
+    birthday: DateTime.now(),
+    childDirected: false,
+    designedForFamilies: false,
+    gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
+    testDevices: <String>[], // Android emulators are considered test devices
+  );
+
+
+  BannerAd myBanner = BannerAd(
+    // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+    // https://developers.google.com/admob/android/test-ads
+    // https://developers.google.com/admob/ios/test-ads
+    adUnitId: "ca-app-pub-7018518907586805/4499233239",
+    size: AdSize.smartBanner,
+
+    listener: (MobileAdEvent event) {
+      print("BannerAd event is $event");
+    },
+  );
 
 
 
