@@ -138,7 +138,7 @@ class CompraHelper {
   Future<int> getIsItensMarcados(int fk, int status) async {
 
     Database dbListaCompras = await db;
-    return  Sqflite.firstIntValue(await dbListaCompras.rawQuery("SELECT * FROM $itemTable WHERE $fkCompraColumn = $fk AND $okColumn = $status"));
+    return  Sqflite.firstIntValue(await dbListaCompras.rawQuery("SELECT COUNT(*) FROM $itemTable WHERE $fkCompraColumn = $fk AND $okColumn = $status"));
 
 
   }

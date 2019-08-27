@@ -32,6 +32,8 @@ class _ItemPageState extends State<ItemPage> {
   var nameInserido = false;
 
 
+  int _isMarcado;
+
   var  _qtdMarcados = 0;
 
   final _nameFocus = FocusNode();
@@ -60,6 +62,10 @@ class _ItemPageState extends State<ItemPage> {
     _editedItem = Item();
     _getAllItens(compra.id);
     _getSize(compra.id);
+
+
+
+
 
     super.initState();
   }
@@ -92,23 +98,19 @@ class _ItemPageState extends State<ItemPage> {
        
         actions: <Widget>[
 
-          _sizeItens.toString()  != '0' ? _menuItens(compra.id)
-          : Container()
-
+            _sizeItens.toString()  != '0' ? _menuItens(compra.id) : Container()
 
         ],
       ),
       floatingActionButton: FloatingActionButton(
 
         onPressed: () {
+
           _nameController.text = '';
           _qtdController.text = '';
           _editedItem.ok = false;
 
-
          _dialogAdicionaItem(compra, context);
-
-
 
 
         },
@@ -331,145 +333,129 @@ class _ItemPageState extends State<ItemPage> {
 
 
 
-  Widget _menuItens(int fkCompra) => PopupMenuButton<int>(
+  Widget _menuItens(int fkCompra) {
 
 
 
-    itemBuilder: (context) => [
+    return PopupMenuButton<int>(
 
 
-
-      PopupMenuItem(
-        value: 1,
-        child: FlatButton.icon(onPressed: (){
-          
-
-          Navigator.pop(context);
-          _dialogCompartilhaLista(compra, context);
-
-
-
-          
-        }, icon: Icon(Icons.share, ), label: Text("Enviar lista"))
-      ),
+      itemBuilder: (context) =>
+      [
+        PopupMenuItem(
+            value: 1,
+            child: FlatButton.icon(onPressed: () {
+              Navigator.pop(context);
+              _dialogCompartilhaLista(compra, context);
+            }, icon: Icon(Icons.share,), label: Text("Enviar lista"))
+        ),
 
 
-         PopupMenuItem(
-          value: 2,
-          child: FlatButton.icon(onPressed: (){
+        PopupMenuItem(
+            value: 2,
+            child: FlatButton.icon(onPressed: () {
+              _statusAllItens(compra.id, 0);
+              _getAllItens(compra.id);
+              _getSize(compra.id);
+              Navigator.pop(context);
+            },
+                icon: Icon(Icons.clear,), label: Text("Desmarcar todos"))
+        ),
+        PopupMenuItem(
+            value: 2,
+            child: FlatButton.icon(onPressed: () {
+              _statusAllItens(compra.id, 1);
+              _getAllItens(compra.id);
+              _getSize(compra.id);
+              Navigator.pop(context);
+            }, icon: Icon(Icons.check,), label: Text("Marcar todos"))
+        ),
+
+        PopupMenuDivider(),
+
+        PopupMenuItem(
+            value: 2,
+            child: FlatButton.icon(onPressed: () {
+              _dialogCancelaLimpaLista(compra);
+            }, icon: Icon(Icons.delete,), label: Text("Limpar lista"))
+        ),
 
 
-            _statusAllItens(compra.id, 0);
-            _getAllItens(compra.id);
-            _getSize(compra.id);
-            Navigator.pop(context);
-
-
-
-
-          },
-              icon: Icon(Icons.clear, ), label: Text("Desmarcar todos"))
-      ),
-      PopupMenuItem(
-          value: 2,
-          child: FlatButton.icon(onPressed: (){
-
-            _statusAllItens(compra.id, 1);
-            _getAllItens(compra.id);
-            _getSize(compra.id);
-            Navigator.pop(context);
-
-
-          }, icon: Icon(Icons.check, ), label: Text("Marcar todos"))
-      ),
-
-      PopupMenuDivider(),
-
-      PopupMenuItem(
-          value: 2,
-          child: FlatButton.icon(onPressed: (){
-
-
-            _dialogCancelaLimpaLista(compra);
-
-
-
-          }, icon: Icon(Icons.delete, ), label: Text("Limpar lista"))
-      ),
-
-
-    ],
-  );
-
-
-  void _dialogCancelaLimpaLista(Compra compra) {
-    // flutter defined function
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        // return object of type Dialog
-        return AlertDialog(
-          title: new Text("Limpar lista"),
-          content: new Text("Remover todos os itens da lista \"" + compra.name + "\"?"),
-          actions: <Widget>[
-
-            new FlatButton(
-              child: new Text(
-                "Cancelar",
-                style: TextStyle(color: Colors.grey[400]),
-              ),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-
-            new RaisedButton(
-              child: new Text(
-                "Sim",
-                style: TextStyle(color: Colors.white),
-              ),
-              shape: new RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(30.0)),
-              onPressed: () {
-
-                compra.qtd = 0;
-                helper.updateCompra(compra);
-                helper.deleteAllItens(compra.id);
-
-                _getAllItens(compra.id);
-                _getSize(compra.id);
-                Navigator.of(context).pop();
-                Navigator.of(context).pop();
-
-
-              },
-            ),
-
-
-          ],
-        );
-      },
+      ],
     );
   }
 
+    void _dialogCancelaLimpaLista(Compra compra) {
+      // flutter defined function
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          // return object of type Dialog
+          return AlertDialog(
+            title: new Text("Limpar lista"),
+            content: new Text("Remover todos os itens da lista \"" + compra.name + "\"?"),
+            actions: <Widget>[
 
-  Future<int> _getIsMarcados(int fk, int status) {
+              new FlatButton(
+                child: new Text(
+                  "Cancelar",
+                  style: TextStyle(color: Colors.grey[400]),
+                ),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
 
-   Future<int> check =  helper.getIsItensMarcados(fk, status).then((size) {
+              new RaisedButton(
+                child: new Text(
+                  "Sim",
+                  style: TextStyle(color: Colors.white),
+                ),
+                shape: new RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(30.0)),
+                onPressed: () {
 
-     return size;
+                  compra.qtd = 0;
+                  helper.updateCompra(compra);
+                  helper.deleteAllItens(compra.id);
+
+                  _getAllItens(compra.id);
+                  _getSize(compra.id);
+                  Navigator.of(context).pop();
+                  Navigator.of(context).pop();
 
 
-    });
-
-   return check;
-
+                },
+              ),
 
 
+            ],
+          );
+        },
+      );
+    }
+
+
+   void _getIsMarcados(int fk, int status) {
+
+       helper.getIsItensMarcados(fk, status).then((size) {
+
+         setState(() {
+
+           _isMarcado = size;
+
+         });
+
+
+
+
+      });
+
+    }
   }
 
 
-}
+
 
 
 

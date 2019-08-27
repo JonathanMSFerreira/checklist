@@ -295,7 +295,6 @@ class _ListaComprasPageState extends State<ListaComprasPage> {
 
         _sizeListaCompras = size.toString();
 
-        print("tamanho: "+_sizeListaCompras);
 
       });
     });
